@@ -1,0 +1,61 @@
+[19:38:28.775] [Info] Root: Preparing Root...
+[19:38:28.776] [Info] Root: Done preparing Root.
+[19:38:28.776] [Info] Root: Scanning for asset sources in directory '../assets/'
+[19:38:28.780] [Info] Root: no runtime config file, creating new default runtime config
+[19:38:28.781] [Info] Root: Loaded Configuration in 0.000207447 seconds
+[19:38:29.052] [Info] Root: Scanning for asset sources in directory '../mods/'
+[19:38:29.052] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[19:38:29.052] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[19:38:29.052] [Info] Root: Detected unnamed asset source at '../assets/user'
+[19:38:29.052] [Info] Loading assets from: '../assets/packed.pak'
+[19:38:29.435] [Info] Loading assets from: '../assets/user'
+[19:38:30.348] [Info] Assets digest is 531f0b8469832a566d23a0b9870ed717c63291164883670d0ee17086a100d3cd
+[19:38:30.348] [Info] Root: Loaded Assets in 1.57187 seconds
+[19:38:30.361] [Info] Root: Loaded NameGenerator in 1.58035 seconds
+[19:38:30.456] [Info] Root: Loaded PlantDatabase in 0.0949907 seconds
+[19:38:30.616] [Info] Root: Loaded ObjectDatabase in 0.26806 seconds
+[19:38:30.618] [Info] Root: Loaded ProjectileDatabase in 0.161773 seconds
+[19:38:30.691] [Info] Root: Loaded NpcDatabase in 0.0730732 seconds
+[19:38:30.694] [Info] Root: Loaded StagehandDatabase in 0.00258855 seconds
+[19:38:30.700] [Info] Root: Loaded VehicleDatabase in 0.0057596 seconds
+[19:38:30.702] [Info] Root: Loaded PlayerFactory in 0.00268498 seconds
+[19:38:30.737] [Info] Root: Loaded MonsterDatabase in 0.120797 seconds
+[19:38:30.738] [Info] Root: Loaded VersioningDatabase in 0.000662722 seconds
+[19:38:30.738] [Info] Root: Loaded EntityFactory in 0.0350558 seconds
+[19:38:30.782] [Info] Root: Loaded ParticleDatabase in 0.0443508 seconds
+[19:38:30.784] [Info] Root: Loaded ImageMetadataDatabase in 1.121e-06 seconds
+[19:38:30.901] [Info] Root: Loaded MaterialDatabase in 0.163327 seconds
+[19:38:30.905] [Info] Root: Loaded TerrainDatabase in 0.00414554 seconds
+[19:38:30.937] [Info] Root: Loaded BiomeDatabase in 0.031253 seconds
+[19:38:30.937] [Info] Root: Loaded LiquidsDatabase in 0.000820194 seconds
+[19:38:30.945] [Info] Root: Loaded StatusEffectDatabase in 0.0072701 seconds
+[19:38:31.169] [Info] Root: Loaded DamageDatabase in 0.223835 seconds
+[19:38:31.173] [Info] Root: Loaded EffectSourceDatabase in 0.00381265 seconds
+[19:38:31.177] [Info] Root: Loaded FunctionDatabase in 0.00430561 seconds
+[19:38:31.200] [Info] Root: Loaded TreasureDatabase in 0.0227357 seconds
+[19:38:31.384] [Info] Root: Loaded DungeonDefinitions in 0.183755 seconds
+[19:38:31.384] [Info] Root: Loaded TilesetDatabase in 6.446e-06 seconds
+[19:38:31.385] [Info] Root: Loaded StatisticsDatabase in 0.00154149 seconds
+[19:38:31.386] [Info] Root: Loaded EmoteProcessor in 4.3049e-05 seconds
+[19:38:31.389] [Info] Root: Loaded SpeciesDatabase in 0.00353884 seconds
+[19:38:31.411] [Info] Root: Loaded QuestTemplateDatabase in 0.0218569 seconds
+[19:38:31.412] [Info] Root: Loaded AiDatabase in 0.000983448 seconds
+[19:38:31.413] [Info] Root: Loaded TechDatabase in 0.000918868 seconds
+[19:38:31.417] [Info] Root: Loaded CodexDatabase in 0.00382505 seconds
+[19:38:31.646] [Info] Root: Loaded BehaviorDatabase in 0.228707 seconds
+[19:38:31.650] [Info] Root: Loaded DanceDatabase in 0.00413818 seconds
+[19:38:31.654] [Info] Root: Loaded SpawnTypeDatabase in 0.00346364 seconds
+[19:38:31.659] [Info] Root: Loaded RadioMessageDatabase in 0.00534478 seconds
+[19:38:33.177] [Info] Root: Loaded ItemDatabase in 2.44024 seconds
+[19:38:33.286] [Info] Root: Loaded CollectionDatabase in 1.62686 seconds
+[19:38:33.368] [Info] Server Version 1.4.4 (linux x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[19:38:33.369] [Info] UniverseServer: Acquiring universe lock file
+[19:38:33.374] [Info] UniverseServer: Loading settings
+[19:38:33.376] [Info] UniverseServer: Starting UniverseServer with UUID: 9076246c822d4ca46e62aa8022f49007
+[19:38:33.376] [Info] UniverseServer: listening for incoming TCP connections on 0000:0000:0000:0000:0000:0000:0000:0000:21025
+[19:38:33.779] [Info] Root: Writing runtime configuration to '../storage/starbound_server.config'
+[19:38:42.422] [Info] Interrupt caught!
+[19:38:42.491] [Info] UniverseServer: Stopping UniverseServer
+[19:38:42.492] [Info] UniverseServer: Stopping TCP Server
+[19:38:42.493] [Info] Server shutdown gracefully
+[19:38:42.493] [Info] Root: Shutting down Root

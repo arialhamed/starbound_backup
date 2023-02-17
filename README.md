@@ -1,4 +1,4 @@
-# starbound_backup_i
+# starbound_backup
 
 list of mods:
 - Optimizebound (1.3)
