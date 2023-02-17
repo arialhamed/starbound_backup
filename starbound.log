@@ -1,133 +1,2581 @@
-[17:16:21.260] [Info] Root: Preparing Root...
-[17:16:21.260] [Info] Root: Done preparing Root.
-[17:16:21.260] [Info] Client Version 1.4.4 (linux x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
-[17:16:21.261] [Info] Root: Scanning for asset sources in directory '../assets/'
-[17:16:21.526] [Info] Root: Scanning for asset sources in directory '../mods/'
-[17:16:21.526] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[17:16:21.526] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
-[17:16:21.526] [Info] Root: Detected unnamed asset source at '../assets/user'
-[17:16:21.526] [Info] Loading assets from: '../assets/packed.pak'
-[17:16:22.038] [Info] Loading assets from: '../assets/user'
-[17:16:22.910] [Info] Assets digest is 531f0b8469832a566d23a0b9870ed717c63291164883670d0ee17086a100d3cd
-[17:16:22.911] [Info] Root: Loaded Assets in 1.65024 seconds
-[17:16:22.913] [Info] Application: Initializing SDL Video
-[17:16:22.925] [Info] Application: Initializing SDL Joystick
-[17:16:23.077] [Info] Application: Initializing SDL Sound
-[17:16:23.120] [Info] Initialized Steam platform services
-[17:16:23.123] [Info] Application: Creating SDL Window
-[17:16:23.184] [Info] Application: Enabling VSync with late swap tearing
-[17:16:23.186] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[17:16:23.199] [Info] OpenGL version: '4.2 (Compatibility Profile) Mesa 22.2.5' vendor: 'Intel' renderer: 'Mesa Intel(R) HD Graphics 4000 (IVB GT2)' shader: '4.20'
-[17:16:23.220] [Info] Application: initialization...
-[17:16:23.223] [Info] Root: Loaded Configuration in 0.00258504 seconds
-[17:16:23.224] [Info] Application: Disabling VSync
-[17:16:23.235] [Info] Application: renderer initialization...
-[17:16:23.237] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[17:16:23.239] [Info] Root: Loaded ImageMetadataDatabase in 1.004e-06 seconds
-[17:16:23.253] [Info] Application: main update loop...
-[17:16:23.264] [Info] Loading mods from user generated content with id '2431875552' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552'
-[17:16:23.265] [Info] Loading mods from user generated content with id '1264107917' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917'
-[17:16:23.266] [Info] Loading mods from user generated content with id '729427606' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606'
-[17:16:23.267] [Info] Loading mods from user generated content with id '729791646' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646'
-[17:16:23.268] [Warn] User generated content with id '736593129' is not available
-[17:16:23.269] [Info] Loading mods from user generated content with id '1543219534' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534'
-[17:16:23.270] [Info] Loading mods from user generated content with id '902555153' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153'
-[17:16:23.271] [Info] Loading mods from user generated content with id '729971441' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441'
-[17:16:23.272] [Info] Loading mods from user generated content with id '1247812383' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383'
-[17:16:23.276] [Info] Loading mods from user generated content with id '1257128625' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625'
-[17:16:23.277] [Info] Loading mods from user generated content with id '1131820988' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988'
-[17:16:23.278] [Info] Loading mods from user generated content with id '729480149' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149'
-[17:16:23.279] [Info] Loading mods from user generated content with id '2627391928' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928'
-[17:16:23.279] [Info] Reloading to include all user generated content
-[17:16:23.279] [Info] Root: Reloading from disk
-[17:16:23.280] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
-[17:16:23.308] [Info] Root: Loaded Configuration in 0.00120028 seconds
-[17:16:23.308] [Info] Root: Scanning for asset sources in directory '../assets/'
-[17:16:23.631] [Info] Root: Scanning for asset sources in directory '../mods/'
-[17:16:23.631] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[17:16:23.632] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552'
-[17:16:23.659] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917'
-[17:16:23.662] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606'
-[17:16:23.665] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646'
-[17:16:23.665] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534'
-[17:16:23.670] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153'
-[17:16:23.772] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441'
-[17:16:23.772] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383'
-[17:16:23.773] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625'
-[17:16:23.773] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988'
-[17:16:23.774] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149'
-[17:16:24.209] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928'
-[17:16:24.210] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'Optimizebound (Performance Improvement)' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153/contents.pak'
-[17:16:24.210] [Info] Root: Detected unnamed asset source at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'The Starforge v1.0' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'FrackinUniverse' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'Improved Containers' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'ExtraZoomLevels' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'nomidnightparticles' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'No Sandstorm Particles' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'Tech Additions' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'pat_railplatformfix' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'FrackinInterface' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917/contents.pak'
-[17:16:24.210] [Info] Root: Detected asset source named 'suphaxnofalldamage' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441/contents.pak'
-[17:16:24.210] [Info] Root: Detected unnamed asset source at '../assets/user'
-[17:16:24.210] [Info] Loading assets from: '../assets/packed.pak'
-[17:16:24.544] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153/contents.pak'
-[17:16:24.745] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534/contents.pak'
-[17:16:24.752] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552/contents.pak'
-[17:16:24.790] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149/contents.pak'
-[17:16:25.608] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606/contents.pak'
-[17:16:25.614] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646/contents.pak'
-[17:16:25.615] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383/contents.pak'
-[17:16:25.615] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625/contents.pak'
-[17:16:25.615] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988/contents.pak'
-[17:16:25.616] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928/contents.pak'
-[17:16:25.616] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917/contents.pak'
-[17:16:25.620] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441/contents.pak'
-[17:16:25.620] [Info] Loading assets from: '../assets/user'
-[17:16:27.972] [Info] Assets digest is 6bf00facc1e57a865760cf43eaff20bd9c8307201c3b94b7d9589ebf565b5fa8
-[17:16:27.972] [Info] Root: Loaded Assets in 4.66424 seconds
-[17:16:27.979] [Info] Root: Loaded ImageMetadataDatabase in 1.369e-06 seconds
-[17:16:27.984] [Info] Root: Loaded NameGenerator in 0.0111619 seconds
-[17:16:28.116] [Info] Root: Loaded PlantDatabase in 0.131542 seconds
-[17:16:28.847] [Info] Root: Loaded ProjectileDatabase in 0.730997 seconds
-[17:16:29.013] [Info] Root: Loaded ObjectDatabase in 1.0402 seconds
-[17:16:29.376] [Info] Root: Loaded NpcDatabase in 0.361962 seconds
-[17:16:29.475] [Info] Root: Loaded StagehandDatabase in 0.0988706 seconds
-[17:16:29.489] [Info] Root: Loaded VehicleDatabase in 0.0135751 seconds
-[17:16:29.525] [Info] Root: Loaded PlayerFactory in 0.0360008 seconds
-[17:16:29.604] [Info] Root: Loaded MonsterDatabase in 0.757095 seconds
-[17:16:29.606] [Info] Root: Loaded VersioningDatabase in 0.00181311 seconds
-[17:16:29.606] [Info] Root: Loaded EntityFactory in 0.0808846 seconds
-[17:16:29.716] [Info] Root: Loaded ParticleDatabase in 0.109601 seconds
-[17:16:30.451] [Info] Root: Loaded MaterialDatabase in 0.844306 seconds
-[17:16:30.476] [Info] Root: Loaded TerrainDatabase in 0.0245554 seconds
-[17:16:30.832] [Info] Root: Loaded BiomeDatabase in 0.355469 seconds
-[17:16:30.840] [Info] Root: Loaded LiquidsDatabase in 0.00728478 seconds
-[17:16:30.945] [Info] Root: Loaded StatusEffectDatabase in 0.104752 seconds
-[17:16:31.633] [Info] Root: Loaded DamageDatabase in 0.687805 seconds
-[17:16:31.648] [Info] Root: Loaded EffectSourceDatabase in 0.0150615 seconds
-[17:16:31.686] [Info] Root: Loaded FunctionDatabase in 0.037996 seconds
-[17:16:31.817] [Info] Root: Loaded TreasureDatabase in 0.130526 seconds
-[17:16:32.723] [Info] Root: Loaded DungeonDefinitions in 0.905574 seconds
-[17:16:32.723] [Info] Root: Loaded TilesetDatabase in 6.633e-06 seconds
-[17:16:32.725] [Info] Root: Loaded StatisticsDatabase in 0.00185715 seconds
-[17:16:32.725] [Info] Root: Loaded EmoteProcessor in 8.7597e-05 seconds
-[17:16:32.776] [Info] Root: Loaded SpeciesDatabase in 0.050971 seconds
-[17:16:32.856] [Info] Root: Loaded QuestTemplateDatabase in 0.0797167 seconds
-[17:16:32.864] [Info] Root: Loaded AiDatabase in 0.00718625 seconds
-[17:16:32.874] [Info] Root: Loaded TechDatabase in 0.00985678 seconds
-[17:16:32.935] [Info] Root: Loaded CodexDatabase in 0.0609939 seconds
-[17:16:33.527] [Info] Root: Loaded BehaviorDatabase in 0.591716 seconds
-[17:16:33.532] [Info] Root: Loaded DanceDatabase in 0.00429177 seconds
-[17:16:33.552] [Info] Root: Loaded SpawnTypeDatabase in 0.0194878 seconds
-[17:16:33.587] [Info] Root: Loaded RadioMessageDatabase in 0.0354056 seconds
-[17:16:46.627] [Info] Root: Loaded ItemDatabase in 17.0227 seconds
-[17:16:46.755] [Info] Root: Loaded CollectionDatabase in 13.1672 seconds
-[17:16:47.987] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[17:21:22.243] [Info] Application: quit requested
-[17:21:22.244] [Info] Application: quitting...
-[17:21:22.244] [Info] Application: shutdown...
-[17:21:22.347] [Info] Root: Shutting down Root
-[17:21:22.844] [Info] Application: Destroying SDL Window
-[17:21:22.863] [Info] Application: stopped gracefully
+[19:01:00.391] [Info] Root: Preparing Root...
+[19:01:00.391] [Info] Root: Done preparing Root.
+[19:01:00.391] [Info] Client Version 1.4.4 (linux x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[19:01:00.391] [Info] Root: Scanning for asset sources in directory '../assets/'
+[19:01:00.738] [Info] Root: Scanning for asset sources in directory '../mods/'
+[19:01:00.739] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[19:01:00.739] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[19:01:00.739] [Info] Root: Detected unnamed asset source at '../assets/user'
+[19:01:00.739] [Info] Loading assets from: '../assets/packed.pak'
+[19:01:01.172] [Info] Loading assets from: '../assets/user'
+[19:01:02.156] [Info] Assets digest is 531f0b8469832a566d23a0b9870ed717c63291164883670d0ee17086a100d3cd
+[19:01:02.156] [Info] Root: Loaded Assets in 1.76456 seconds
+[19:01:02.158] [Info] Application: Initializing SDL Video
+[19:01:02.168] [Info] Application: Initializing SDL Joystick
+[19:01:02.343] [Info] Application: Initializing SDL Sound
+[19:01:02.394] [Info] Initialized Steam platform services
+[19:01:02.397] [Info] Application: Creating SDL Window
+[19:01:02.485] [Info] Application: Enabling VSync with late swap tearing
+[19:01:02.489] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[19:01:02.500] [Info] OpenGL version: '4.2 (Compatibility Profile) Mesa 22.2.5' vendor: 'Intel' renderer: 'Mesa Intel(R) HD Graphics 4000 (IVB GT2)' shader: '4.20'
+[19:01:02.525] [Info] Application: initialization...
+[19:01:02.526] [Info] Root: Loaded Configuration in 0.00102978 seconds
+[19:01:02.527] [Info] Application: Disabling VSync
+[19:01:02.553] [Info] Application: renderer initialization...
+[19:01:02.556] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[19:01:02.558] [Info] Root: Loaded ImageMetadataDatabase in 8.19e-07 seconds
+[19:01:02.572] [Info] Application: main update loop...
+[19:01:02.581] [Info] Loading mods from user generated content with id '2431875552' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552'
+[19:01:02.582] [Info] Loading mods from user generated content with id '1264107917' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917'
+[19:01:02.584] [Info] Loading mods from user generated content with id '729427606' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606'
+[19:01:02.585] [Info] Loading mods from user generated content with id '729791646' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646'
+[19:01:02.586] [Warn] User generated content with id '736593129' is not available
+[19:01:02.587] [Info] Loading mods from user generated content with id '1543219534' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534'
+[19:01:02.588] [Info] Loading mods from user generated content with id '902555153' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153'
+[19:01:02.592] [Info] Loading mods from user generated content with id '729971441' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441'
+[19:01:02.593] [Info] Loading mods from user generated content with id '1247812383' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383'
+[19:01:02.596] [Info] Loading mods from user generated content with id '1257128625' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625'
+[19:01:02.598] [Info] Loading mods from user generated content with id '1131820988' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988'
+[19:01:02.599] [Info] Loading mods from user generated content with id '729480149' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149'
+[19:01:02.599] [Info] Loading mods from user generated content with id '2627391928' from directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928'
+[19:01:02.600] [Info] Reloading to include all user generated content
+[19:01:02.600] [Info] Root: Reloading from disk
+[19:01:02.600] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[19:01:02.633] [Info] Root: Loaded Configuration in 0.0010033 seconds
+[19:01:02.633] [Info] Root: Scanning for asset sources in directory '../assets/'
+[19:01:02.921] [Info] Root: Scanning for asset sources in directory '../mods/'
+[19:01:02.921] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[19:01:02.921] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552'
+[19:01:02.951] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917'
+[19:01:02.962] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606'
+[19:01:02.965] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646'
+[19:01:02.966] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534'
+[19:01:02.969] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153'
+[19:01:03.076] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441'
+[19:01:03.076] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383'
+[19:01:03.077] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625'
+[19:01:03.078] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988'
+[19:01:03.080] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149'
+[19:01:03.523] [Info] Root: Scanning for asset sources in directory '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928'
+[19:01:03.523] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[19:01:03.523] [Info] Root: Detected asset source named 'Optimizebound (Performance Improvement)' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153/contents.pak'
+[19:01:03.523] [Info] Root: Detected unnamed asset source at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534/contents.pak'
+[19:01:03.523] [Info] Root: Detected asset source named 'The Starforge v1.0' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552/contents.pak'
+[19:01:03.523] [Info] Root: Detected asset source named 'FrackinUniverse' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'Improved Containers' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'ExtraZoomLevels' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'nomidnightparticles' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'No Sandstorm Particles' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'Tech Additions' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'pat_railplatformfix' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'FrackinInterface' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917/contents.pak'
+[19:01:03.524] [Info] Root: Detected asset source named 'suphaxnofalldamage' at '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441/contents.pak'
+[19:01:03.524] [Info] Root: Detected unnamed asset source at '../assets/user'
+[19:01:03.524] [Info] Loading assets from: '../assets/packed.pak'
+[19:01:03.863] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/902555153/contents.pak'
+[19:01:04.003] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1543219534/contents.pak'
+[19:01:04.009] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2431875552/contents.pak'
+[19:01:04.042] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729480149/contents.pak'
+[19:01:04.895] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729427606/contents.pak'
+[19:01:04.900] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729791646/contents.pak'
+[19:01:04.900] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1247812383/contents.pak'
+[19:01:04.900] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1257128625/contents.pak'
+[19:01:04.900] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1131820988/contents.pak'
+[19:01:04.901] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/2627391928/contents.pak'
+[19:01:04.902] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/1264107917/contents.pak'
+[19:01:04.905] [Info] Loading assets from: '/media/ari/plus/SteamLibrary/steamapps/workshop/content/211820/729971441/contents.pak'
+[19:01:04.905] [Info] Loading assets from: '../assets/user'
+[19:01:07.326] [Info] Assets digest is 6bf00facc1e57a865760cf43eaff20bd9c8307201c3b94b7d9589ebf565b5fa8
+[19:01:07.326] [Info] Root: Loaded Assets in 4.69344 seconds
+[19:01:07.336] [Info] Root: Loaded ImageMetadataDatabase in 1.492e-06 seconds
+[19:01:07.339] [Info] Root: Loaded NameGenerator in 0.0120415 seconds
+[19:01:07.540] [Info] Root: Loaded PlantDatabase in 0.200526 seconds
+[19:01:08.297] [Info] Root: Loaded ProjectileDatabase in 0.755117 seconds
+[19:01:08.679] [Info] Root: Loaded ObjectDatabase in 1.35223 seconds
+[19:01:08.992] [Info] Root: Loaded NpcDatabase in 0.312517 seconds
+[19:01:09.118] [Info] Root: Loaded MonsterDatabase in 0.820558 seconds
+[19:01:09.128] [Info] Root: Loaded StagehandDatabase in 0.135535 seconds
+[19:01:09.133] [Info] Root: Loaded VehicleDatabase in 0.0105133 seconds
+[19:01:09.149] [Info] Root: Loaded PlayerFactory in 0.0207775 seconds
+[19:01:09.151] [Info] Root: Loaded VersioningDatabase in 0.001362 seconds
+[19:01:09.151] [Info] Root: Loaded EntityFactory in 0.0182187 seconds
+[19:01:09.267] [Info] Root: Loaded ParticleDatabase in 0.116127 seconds
+[19:01:09.981] [Info] Root: Loaded MaterialDatabase in 0.83032 seconds
+[19:01:10.000] [Info] Root: Loaded TerrainDatabase in 0.0182076 seconds
+[19:01:10.361] [Info] Root: Loaded BiomeDatabase in 0.361111 seconds
+[19:01:10.365] [Info] Root: Loaded LiquidsDatabase in 0.00345507 seconds
+[19:01:10.469] [Info] Root: Loaded StatusEffectDatabase in 0.104229 seconds
+[19:01:11.218] [Info] Root: Loaded DamageDatabase in 0.74856 seconds
+[19:01:11.229] [Info] Root: Loaded EffectSourceDatabase in 0.0104685 seconds
+[19:01:11.258] [Info] Root: Loaded FunctionDatabase in 0.0287362 seconds
+[19:01:11.385] [Info] Root: Loaded TreasureDatabase in 0.127076 seconds
+[19:01:12.188] [Info] Root: Loaded DungeonDefinitions in 0.80331 seconds
+[19:01:12.189] [Info] Root: Loaded TilesetDatabase in 6.538e-06 seconds
+[19:01:12.192] [Info] Root: Loaded StatisticsDatabase in 0.00307302 seconds
+[19:01:12.192] [Info] Root: Loaded EmoteProcessor in 5.8422e-05 seconds
+[19:01:12.269] [Info] Root: Loaded SpeciesDatabase in 0.0767169 seconds
+[19:01:12.377] [Info] Root: Loaded QuestTemplateDatabase in 0.107187 seconds
+[19:01:12.381] [Info] Root: Loaded AiDatabase in 0.00394182 seconds
+[19:01:12.400] [Info] Root: Loaded TechDatabase in 0.0184794 seconds
+[19:01:12.457] [Info] Root: Loaded CodexDatabase in 0.0573596 seconds
+[19:01:12.957] [Info] Root: Loaded BehaviorDatabase in 0.499158 seconds
+[19:01:12.963] [Info] Root: Loaded DanceDatabase in 0.00558498 seconds
+[19:01:12.984] [Info] Root: Loaded SpawnTypeDatabase in 0.0207028 seconds
+[19:01:13.038] [Info] Root: Loaded RadioMessageDatabase in 0.0542288 seconds
+[19:01:28.218] [Info] Root: Loaded ItemDatabase in 19.0686 seconds
+[19:01:28.400] [Info] Root: Loaded CollectionDatabase in 15.3616 seconds
+[19:01:29.965] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[19:01:49.438] [Info] UniverseServer: Acquiring universe lock file
+[19:01:49.442] [Info] UniverseServer: Loading settings
+[19:01:49.444] [Info] UniverseServer: Starting UniverseServer with UUID: 9076246c822d4ca46e62aa8022f49007
+[19:01:49.480] [Info] UniverseServer: Logged in player 'Xiaomi' locally
+[19:01:49.480] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Xiaomi' from address local
+[19:01:49.482] [Info] UniverseServer: Loading system world (186588387, 15026754, 78713070) from disk storage
+[19:01:49.483] [Info] UniverseClient: Joined server as client 1
+[19:01:49.514] [Info] UniverseServer: Reviving player at ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:01:49.514] [Info] UniverseServer: Client 'Xiaomi' <1> (local) connected
+[19:01:49.546] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:01:49.563] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[19:01:49.563] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[19:01:49.589] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[19:01:49.590] [Info] Setting steam rich presence connection as steamid_76561199066566514
+[19:01:49.605] [Error] Cannot set Steam achievement kill10poptops
+[19:01:49.704] [Info] Protected dungeonIds for world set to (65524)
+[19:01:50.496] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:01:50.792] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:01:50.793] [Info] Initializing general player utility script
+[19:01:50.802] [Info] ----- FU player init -----
+[19:01:50.802] [Info] ----- End FU player init -----
+[19:01:50.802] [Info] ----- ZB player init -----
+[19:01:50.802] [Info] [ZB] Mods using update info window and their versions:
+[19:01:50.803] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:01:50.803] [Info] -- ztarbound   [Version 6.3.3]
+[19:01:50.803] [Info] ----- end ZB player init -----
+[19:10:06.094] [Info] Chat: <server> Admin privileges now given to player Xiaomi
+[19:10:13.551] [Info] Chat: <server> Admin privileges taken away from Xiaomi
+[19:12:02.740] [Info] UniverseServer: Loading celestial world 186588387:15026754:78713070:10
+[19:12:03.592] [Info] Protected dungeonIds for world set to (0, 1, 4, 65524)
+[19:12:04.107] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588387:15026754:78713070:10
+[19:12:04.113] [Info] Client received world stop packet, leaving: Removed
+[19:12:04.152] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:12:04.656] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:12:04.656] [Info] Initializing general player utility script
+[19:12:04.666] [Info] ----- FU player init -----
+[19:12:04.666] [Info] ----- End FU player init -----
+[19:12:04.666] [Info] ----- ZB player init -----
+[19:12:04.667] [Info] [ZB] Mods using update info window and their versions:
+[19:12:04.667] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:12:04.667] [Info] -- ztarbound   [Version 6.3.3]
+[19:12:04.667] [Info] ----- end ZB player init -----
+[19:12:26.937] [Info] Chat: <SAIL> ALERT: MENTAL STATE DETERIORATING! Your surroundings are causing your thoughts and feelings to become jumbled. Focus is difficult and you feel yourself going insane...
+[19:12:35.085] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:12:35.273] [Info] Protected dungeonIds for world set to (65524)
+[19:12:36.491] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:12:36.524] [Info] UniverseServer: Stopping idle world CelestialWorld:186588387:15026754:78713070:10
+[19:12:36.531] [Info] Client received world stop packet, leaving: Removed
+[19:12:36.807] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:12:36.807] [Info] Initializing general player utility script
+[19:12:36.816] [Info] ----- FU player init -----
+[19:12:36.816] [Info] ----- End FU player init -----
+[19:12:36.816] [Info] ----- ZB player init -----
+[19:12:36.816] [Info] [ZB] Mods using update info window and their versions:
+[19:12:36.816] [Info] -- ztarbound   [Version 6.3.3]
+[19:12:36.816] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:12:36.816] [Info] ----- end ZB player init -----
+[19:25:48.711] [Info] Flying ship for player 1 to 186588387:15026754:78713070
+[19:25:52.226] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026754:78713070
+[19:26:11.240] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outlawmine:57a0b7000df3a9e8ae9b0be33a2ccd6b:6' with expiry time 600000
+[19:26:11.258] [Info] Protected dungeonIds for world set to (65524)
+[19:26:11.258] [Info] Placing dungeon outlawmine
+[19:26:11.259] [Info] Placing dungeon at (0, 250)
+[19:26:12.506] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:26:13.669] [Info] UniverseServer: Warping player 1 to InstanceWorld:outlawmine:57a0b7000df3a9e8ae9b0be33a2ccd6b:6
+[19:26:15.379] [Info] Client received world stop packet, leaving: Removed
+[19:26:15.669] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:26:16.015] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:26:16.015] [Info] Initializing general player utility script
+[19:26:16.021] [Info] ----- FU player init -----
+[19:26:16.021] [Info] ----- End FU player init -----
+[19:26:16.021] [Info] ----- ZB player init -----
+[19:26:16.022] [Info] [ZB] Mods using update info window and their versions:
+[19:26:16.022] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:26:16.022] [Info] -- ztarbound   [Version 6.3.3]
+[19:26:16.023] [Info] ----- end ZB player init -----
+[19:28:05.503] [Info] Skipped event recording for nonexistent entity 323
+[19:28:05.504] [Info] Skipped event recording for nonexistent entity 322
+[19:28:05.504] [Info] Skipped event recording for nonexistent entity 324
+[19:28:05.514] [Info] Skipped event recording for nonexistent entity 325
+[19:28:05.514] [Info] Skipped event recording for nonexistent entity 326
+[19:30:47.496] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:30:47.688] [Info] Protected dungeonIds for world set to (65524)
+[19:30:49.105] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:30:49.140] [Info] UniverseServer: Stopping idle world InstanceWorld:outlawmine:57a0b7000df3a9e8ae9b0be33a2ccd6b:6
+[19:30:49.143] [Info] Client received world stop packet, leaving: Removed
+[19:30:49.420] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:30:49.421] [Info] Initializing general player utility script
+[19:30:49.430] [Info] ----- FU player init -----
+[19:30:49.431] [Info] ----- End FU player init -----
+[19:30:49.431] [Info] ----- ZB player init -----
+[19:30:49.431] [Info] [ZB] Mods using update info window and their versions:
+[19:30:49.431] [Info] -- ztarbound   [Version 6.3.3]
+[19:30:49.432] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:30:49.432] [Info] ----- end ZB player init -----
+[19:31:05.658] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:31:05.659] [Info] UniverseServer: Creating new system world at location (186588387, 15026756, -272037253)
+[19:31:05.662] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:31:20.281] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:31:21.287] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:31:32.050] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:unboundship2:24edd8189ef0b76d3a6844a8020ff7bc:6' with expiry time 600000
+[19:31:32.082] [Info] Protected dungeonIds for world set to (65524)
+[19:31:32.082] [Info] Placing dungeon unboundship2
+[19:31:32.082] [Info] Placing dungeon at (0, 150)
+[19:31:32.752] [Warn] Failed to place dungeon object: starforge-unboundwalllamp direction: 1 position: (29, 118)
+[19:31:33.560] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:31:34.490] [Info] UniverseServer: Warping player 1 to InstanceWorld:unboundship2:24edd8189ef0b76d3a6844a8020ff7bc:6
+[19:31:34.503] [Info] Client received world stop packet, leaving: Removed
+[19:31:36.557] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:31:37.204] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:31:37.204] [Info] Initializing general player utility script
+[19:31:37.211] [Info] ----- FU player init -----
+[19:31:37.212] [Info] ----- End FU player init -----
+[19:31:37.212] [Info] ----- ZB player init -----
+[19:31:37.212] [Info] [ZB] Mods using update info window and their versions:
+[19:31:37.213] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:31:37.213] [Info] -- ztarbound   [Version 6.3.3]
+[19:31:37.213] [Info] ----- end ZB player init -----
+[19:32:24.714] [Info] Protected dungeonIds for world set to (65524)
+[19:32:24.716] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:33:32.439] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:33:32.626] [Info] Protected dungeonIds for world set to (65524)
+[19:33:33.703] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:33:33.733] [Info] Client received world stop packet, leaving: Removed
+[19:33:33.737] [Info] UniverseServer: Stopping idle world InstanceWorld:unboundship2:24edd8189ef0b76d3a6844a8020ff7bc:6
+[19:33:34.080] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:33:34.080] [Info] Initializing general player utility script
+[19:33:34.085] [Info] ----- FU player init -----
+[19:33:34.085] [Info] ----- End FU player init -----
+[19:33:34.085] [Info] ----- ZB player init -----
+[19:33:34.086] [Info] [ZB] Mods using update info window and their versions:
+[19:33:34.086] [Info] -- ztarbound   [Version 6.3.3]
+[19:33:34.086] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:33:34.086] [Info] ----- end ZB player init -----
+[19:33:41.678] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:33:44.735] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:33:54.963] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:33:55.770] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:34:11.471] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:34:12.276] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:34:14.732] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:34:15.335] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:34:15.635] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:34:16.137] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:34:24.152] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:34:25.680] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:34:37.952] [Info] Flying ship for player 1 to 186588387:15026756:-272037253:11
+[19:34:38.455] [Info] UniverseServer: Creating celestial world 186588387:15026756:-272037253:11
+[19:34:38.845] [Info] Protected dungeonIds for world set to (65524)
+[19:34:38.846] [Info] Placing dungeon apexcity
+[19:34:38.942] [Info] Placing dungeon at (971, 1000)
+[19:34:45.171] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253:11
+[19:34:45.251] [Info] UniverseServer: Stopping idle world CelestialWorld:186588387:15026756:-272037253:11
+[19:35:01.825] [Info] UniverseServer: Loading celestial world 186588387:15026756:-272037253:11
+[19:35:02.339] [Info] Protected dungeonIds for world set to (65524)
+[19:35:02.790] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588387:15026756:-272037253:11
+[19:35:02.818] [Info] Client received world stop packet, leaving: Removed
+[19:35:02.836] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:35:03.271] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:35:03.271] [Info] Initializing general player utility script
+[19:35:03.276] [Info] ----- FU player init -----
+[19:35:03.276] [Info] ----- End FU player init -----
+[19:35:03.276] [Info] ----- ZB player init -----
+[19:35:03.277] [Info] [ZB] Mods using update info window and their versions:
+[19:35:03.277] [Info] -- ztarbound   [Version 6.3.3]
+[19:35:03.277] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:35:03.277] [Info] ----- end ZB player init -----
+[19:35:14.029] [Warn] Failed to place dungeon object: icestalactite2 direction: 1 position: (3309, 1003)
+[19:35:58.914] [Info] Skipped event recording for nonexistent entity 660
+[19:40:49.249] [Info] UniverseServer: Expiring temporary world InstanceWorld:outlawmine:57a0b7000df3a9e8ae9b0be33a2ccd6b:6
+[19:43:33.767] [Info] UniverseServer: Expiring temporary world InstanceWorld:unboundship2:24edd8189ef0b76d3a6844a8020ff7bc:6
+[19:45:34.941] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:45:35.165] [Info] Protected dungeonIds for world set to (65524)
+[19:45:36.644] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:45:36.690] [Info] Client received world stop packet, leaving: Removed
+[19:45:36.701] [Info] UniverseServer: Stopping idle world CelestialWorld:186588387:15026756:-272037253:11
+[19:45:37.067] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:45:37.067] [Info] Initializing general player utility script
+[19:45:37.074] [Info] ----- FU player init -----
+[19:45:37.074] [Info] ----- End FU player init -----
+[19:45:37.074] [Info] ----- ZB player init -----
+[19:45:37.075] [Info] [ZB] Mods using update info window and their versions:
+[19:45:37.075] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:45:37.076] [Info] -- ztarbound   [Version 6.3.3]
+[19:45:37.076] [Info] ----- end ZB player init -----
+[19:46:06.782] [Info] Flying ship for player 1 to 186588387:15026756:-272037253
+[19:46:09.599] [Info] UniverseServer: Arriving ship for player 1 at 186588387:15026756:-272037253
+[19:46:21.314] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:pirateship:9e635e84f1d6c8fa46500d60bff80a7c:6' with expiry time 600000
+[19:46:21.346] [Info] Protected dungeonIds for world set to (65524)
+[19:46:21.346] [Info] Placing dungeon pirateship
+[19:46:21.348] [Info] Placing dungeon at (0, 150)
+[19:46:22.346] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:46:23.295] [Info] UniverseServer: Warping player 1 to InstanceWorld:pirateship:9e635e84f1d6c8fa46500d60bff80a7c:6
+[19:46:25.546] [Info] Client received world stop packet, leaving: Removed
+[19:46:25.816] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:46:26.082] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:46:26.084] [Info] Initializing general player utility script
+[19:46:26.090] [Info] ----- FU player init -----
+[19:46:26.090] [Info] ----- End FU player init -----
+[19:46:26.090] [Info] ----- ZB player init -----
+[19:46:26.092] [Info] [ZB] Mods using update info window and their versions:
+[19:46:26.094] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:46:26.095] [Info] -- ztarbound   [Version 6.3.3]
+[19:46:26.095] [Info] ----- end ZB player init -----
+[19:49:09.963] [Info] Chat: <SAIL> You've gained a +2 Research bonus based on your session playtime. This bonus will be disabled if you are AFK.
+[19:49:28.333] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:49:28.478] [Info] Protected dungeonIds for world set to (65524)
+[19:49:29.438] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:49:29.458] [Info] Client received world stop packet, leaving: Removed
+[19:49:29.469] [Info] UniverseServer: Stopping idle world InstanceWorld:pirateship:9e635e84f1d6c8fa46500d60bff80a7c:6
+[19:49:29.750] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:49:29.750] [Info] Initializing general player utility script
+[19:49:29.764] [Info] ----- FU player init -----
+[19:49:29.764] [Info] ----- End FU player init -----
+[19:49:29.765] [Info] ----- ZB player init -----
+[19:49:29.765] [Info] [ZB] Mods using update info window and their versions:
+[19:49:29.765] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:49:29.766] [Info] -- ztarbound   [Version 6.3.3]
+[19:49:29.766] [Info] ----- end ZB player init -----
+[19:50:44.250] [Info] Flying ship for player 1 to 186588402:15026732:2383324
+[19:50:44.251] [Info] UniverseServer: Creating new system world at location (186588402, 15026732, 2383324)
+[19:50:44.253] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324
+[19:51:01.813] [Info] Flying ship for player 1 to 186588402:15026732:2383324
+[19:51:02.818] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324
+[19:51:08.950] [Info] Flying ship for player 1 to 186588402:15026732:2383324:4:2
+[19:51:09.490] [Info] UniverseServer: Creating celestial world 186588402:15026732:2383324:4:2
+[19:51:09.798] [Info] Protected dungeonIds for world set to (65524)
+[19:51:09.798] [Info] Placing dungeon weaponsfactory
+[19:51:10.314] [Info] Placing dungeon at (2913, 675)
+[19:51:11.335] [Warn] Failed to place dungeon object: fluorescentlight direction: 1 position: (186, 705)
+[19:51:11.355] [Warn] Failed to place dungeon object: fluorescentlight direction: 1 position: (274, 706)
+[19:51:11.629] [Warn] Failed to place dungeon object: fluorescentlight direction: 1 position: (186, 719)
+[19:51:11.633] [Warn] Failed to place dungeon object: fluorescentlight direction: 1 position: (274, 720)
+[19:51:11.660] [Warn] Failed to place dungeon object: pixeldispenser direction: 1 position: (214, 725)
+[19:51:12.398] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:51:16.087] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324:4:2
+[19:51:16.147] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:4:2
+[19:51:53.355] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[19:51:53.379] [Info] Protected dungeonIds for world set to (65524)
+[19:51:53.379] [Info] Placing dungeon outpost
+[19:51:53.388] [Info] Placing dungeon at (0, 750)
+[19:52:05.478] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:52:07.352] [Info] Placing dungeon at (406, 651)
+[19:52:07.361] [Info] Placing dungeon at (332, 621)
+[19:52:07.381] [Info] Placing dungeon at (332, 655)
+[19:52:07.403] [Info] Placing dungeon at (427, 618)
+[19:52:07.409] [Info] Placing dungeon at (310, 616)
+[19:52:07.422] [Info] Placing dungeon at (838, 608)
+[19:52:07.494] [Info] Placing dungeon at (452, 627)
+[19:52:07.500] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[19:52:07.501] [Info] Placing dungeon at (308, 640)
+[19:52:07.504] [Info] Placing dungeon at (364, 588)
+[19:52:07.510] [Info] Placing dungeon at (931, 608)
+[19:52:07.581] [Info] Placing dungeon at (611, 645)
+[19:52:07.595] [Info] Placing dungeon at (805, 608)
+[19:52:07.629] [Info] Placing dungeon at (444, 561)
+[19:52:07.640] [Info] Placing dungeon at (964, 608)
+[19:52:07.683] [Info] Placing dungeon at (757, 597)
+[19:52:07.726] [Info] Placing dungeon at (355, 636)
+[19:52:07.735] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[19:52:07.740] [Info] Placing dungeon at (355, 636)
+[19:52:07.750] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[19:52:07.757] [Info] Placing dungeon at (447, 567)
+[19:52:07.783] [Info] Placing dungeon at (429, 567)
+[19:52:08.428] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
+[19:52:11.389] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[19:52:11.419] [Info] Client received world stop packet, leaving: Removed
+[19:52:12.011] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:52:12.011] [Info] Initializing general player utility script
+[19:52:12.019] [Info] ----- FU player init -----
+[19:52:12.020] [Info] ----- End FU player init -----
+[19:52:12.020] [Info] ----- ZB player init -----
+[19:52:12.020] [Info] [ZB] Mods using update info window and their versions:
+[19:52:12.021] [Info] -- ztarbound   [Version 6.3.3]
+[19:52:12.021] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:52:12.021] [Info] ----- end ZB player init -----
+[19:54:19.247] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[19:56:30.861] [Info] UniverseServer: Loading persistent unique instance world playerstation
+[19:56:30.871] [Info] Protected dungeonIds for world set to (0, 65524, 65535)
+[19:56:31.454] [Info] UniverseServer: Warping player 1 to InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1=6622343cfd5948ac5600a80d89a7d1f8
+[19:56:31.485] [Info] Client received world stop packet, leaving: Removed
+[19:56:32.528] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[19:56:35.864] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[19:56:36.125] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[19:56:36.125] [Info] Initializing general player utility script
+[19:56:36.133] [Info] ----- FU player init -----
+[19:56:36.134] [Info] ----- End FU player init -----
+[19:56:36.134] [Info] ----- ZB player init -----
+[19:56:36.134] [Info] [ZB] Mods using update info window and their versions:
+[19:56:36.134] [Info] -- frackinuniverse   [Version 6.3.3]
+[19:56:36.134] [Info] -- ztarbound   [Version 6.3.3]
+[19:56:36.135] [Info] ----- end ZB player init -----
+[19:59:33.136] [Info] UniverseServer: Expiring temporary world InstanceWorld:pirateship:9e635e84f1d6c8fa46500d60bff80a7c:6
+[20:41:00.666] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:scienceoutpost:-:-' with expiry time 0
+[20:41:00.689] [Info] Protected dungeonIds for world set to (65524)
+[20:41:00.690] [Info] Placing dungeon scienceoutpost
+[20:41:00.719] [Info] Placing dungeon at (0, 1175)
+[20:41:06.628] [Warn] Failed to place dungeon object: metallicceiling2 direction: 1 position: (210, 960)
+[20:41:06.631] [Warn] Failed to place dungeon object: pipes3 direction: 1 position: (200, 961)
+[20:41:10.616] [Info] Protected dungeonIds for world set to (0, 65524)
+[20:41:12.656] [Info] UniverseServer: Warping player 1 to InstanceWorld:scienceoutpost:-:-=scienceoutpost
+[20:41:15.551] [Info] Client received world stop packet, leaving: Removed
+[20:41:16.139] [Info] UniverseServer: Stopping idle world InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1
+[20:41:16.139] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[20:41:16.139] [Info] Initializing general player utility script
+[20:41:16.151] [Info] ----- FU player init -----
+[20:41:16.151] [Info] ----- End FU player init -----
+[20:41:16.151] [Info] ----- ZB player init -----
+[20:41:16.151] [Info] [ZB] Mods using update info window and their versions:
+[20:41:16.154] [Info] -- ztarbound   [Version 6.3.3]
+[20:41:16.154] [Info] -- frackinuniverse   [Version 6.3.3]
+[20:41:16.155] [Info] ----- end ZB player init -----
+[20:43:14.233] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "primaryAbilityType" : "fushortswordcombo"
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:14.243] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.75,
+  "critBonus" : 12.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 5,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 7.97468,
+   "energyCost" : 10.2
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:16.431] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.75,
+  "critBonus" : 12.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 5,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 7.97468,
+   "energyCost" : 10.2
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:16.445] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.75,
+  "critBonus" : 12.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 5,
+  "primaryAbility" : {
+   "baseDps" : 7.97468,
+   "energyCost" : 10.2
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:18.405] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.75,
+  "critBonus" : 12.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 5,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 7.97468,
+   "energyCost" : 10.2
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:18.426] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.9,
+  "critBonus" : 13,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 6,
+  "primaryAbility" : {
+   "baseDps" : 8.06962,
+   "energyCost" : 9.84
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:20.515] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.9,
+  "critBonus" : 13,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 6,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.06962,
+   "energyCost" : 9.84
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:20.524] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.05,
+  "critBonus" : 13.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 7,
+  "primaryAbility" : {
+   "baseDps" : 8.16456,
+   "energyCost" : 9.48
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:22.607] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.05,
+  "critBonus" : 13.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 7,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.16456,
+   "energyCost" : 9.48
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:22.619] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.2,
+  "critBonus" : 14,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 8,
+  "primaryAbility" : {
+   "baseDps" : 8.25949,
+   "energyCost" : 9.12
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:24.629] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.2,
+  "critBonus" : 14,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 8,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.25949,
+   "energyCost" : 9.12
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:24.639] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.35,
+  "critBonus" : 14.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 9,
+  "primaryAbility" : {
+   "baseDps" : 8.35443,
+   "energyCost" : 8.76
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:26.752] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.35,
+  "critBonus" : 14.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 9,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.35443,
+   "energyCost" : 8.76
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:26.771] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.5,
+  "critBonus" : 15,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 10,
+  "primaryAbility" : {
+   "baseDps" : 8.44937,
+   "energyCost" : 8.4
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:34.837] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "primaryAbilityType" : "fushortswordcombo"
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:34.845] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.75,
+  "critBonus" : 12.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 5,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 7.97468,
+   "energyCost" : 10.2
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:37.098] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.75,
+  "critBonus" : 12.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 5,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 7.97468,
+   "energyCost" : 10.2
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:37.110] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.9,
+  "critBonus" : 13,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 6,
+  "primaryAbility" : {
+   "baseDps" : 8.06962,
+   "energyCost" : 9.84
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:38.986] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.9,
+  "critBonus" : 13,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "legendary",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 6,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.06962,
+   "energyCost" : 9.84
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:38.997] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.05,
+  "critBonus" : 13.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 7,
+  "primaryAbility" : {
+   "baseDps" : 8.16456,
+   "energyCost" : 9.48
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:40.799] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.05,
+  "critBonus" : 13.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 7,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.16456,
+   "energyCost" : 9.48
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:40.810] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.2,
+  "critBonus" : 14,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 8,
+  "primaryAbility" : {
+   "baseDps" : 8.25949,
+   "energyCost" : 9.12
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:42.795] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.2,
+  "critBonus" : 14,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 8,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.25949,
+   "energyCost" : 9.12
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:42.806] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.35,
+  "critBonus" : 14.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 9,
+  "primaryAbility" : {
+   "baseDps" : 8.35443,
+   "energyCost" : 8.76
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:44.760] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.35,
+  "critBonus" : 14.5,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 9,
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  },
+  "primaryAbility" : {
+   "baseDps" : 8.35443,
+   "energyCost" : 8.76
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:44.766] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.5,
+  "critBonus" : 15,
+  "inventoryIcon" : "electrobatonicon_l6.png",
+  "rarity" : "essential",
+  "shortdescription" : "Electro Baton ^yellow;^reset;",
+  "primaryAbilityType" : "fushortswordcombo",
+  "level" : 10,
+  "primaryAbility" : {
+   "baseDps" : 8.44937,
+   "energyCost" : 8.4
+  },
+  "animationParts" : {
+   "blade" : "/items/active/weapons/other/electrobaton/blade_l6.png",
+   "handle" : "/items/active/weapons/other/electrobaton/handle_l6.png"
+  }
+ },
+ "name" : "electrobaton",
+ "count" : 1
+}
+[20:43:50.030] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:50.035] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 2,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.02532
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:51.940] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 2,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.02532
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:51.946] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 3,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.03797
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:53.698] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 3,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.03797
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:53.705] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 4,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.05063
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:55.751] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 4,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.05063
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:55.763] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 5,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.06329
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:57.748] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 5,
+  "rarity" : "rare",
+  "primaryAbility" : {
+   "baseDps" : 1.06329
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:43:57.761] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 6,
+  "rarity" : "legendary",
+  "primaryAbility" : {
+   "baseDps" : 1.07595
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:00.222] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 6,
+  "rarity" : "legendary",
+  "primaryAbility" : {
+   "baseDps" : 1.07595
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:00.229] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 7,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.08861
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:02.678] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 7,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.08861
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:02.681] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 8,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.10127
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:04.592] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 8,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.10127
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:04.602] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 9,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.11392
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:07.560] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 9,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.11392
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:07.565] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 10,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 1.12658
+  }
+ },
+ "name" : "capturegun",
+ "count" : 1
+}
+[20:44:14.541] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:14.549] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.9,
+  "level" : 6,
+  "critBonus" : 9,
+  "rarity" : "legendary",
+  "primaryAbility" : {
+   "baseDps" : 13.9873
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:16.640] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 4.9,
+  "level" : 6,
+  "critBonus" : 9,
+  "rarity" : "legendary",
+  "primaryAbility" : {
+   "baseDps" : 13.9873
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:16.645] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.05,
+  "level" : 7,
+  "critBonus" : 9.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.1519
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:18.542] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.05,
+  "level" : 7,
+  "critBonus" : 9.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.1519
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:18.547] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.2,
+  "level" : 8,
+  "critBonus" : 10,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.3165
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:20.664] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.2,
+  "level" : 8,
+  "critBonus" : 10,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.3165
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:20.672] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.35,
+  "level" : 9,
+  "critBonus" : 10.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.481
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:22.841] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.35,
+  "level" : 9,
+  "critBonus" : 10.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.481
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:44:22.852] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 5.5,
+  "level" : 10,
+  "critBonus" : 11,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 14.6456
+  }
+ },
+ "name" : "fuapexclaws",
+ "count" : 1
+}
+[20:45:07.564] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[20:45:07.830] [Info] Protected dungeonIds for world set to (65524)
+[20:45:09.444] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[20:45:09.464] [Info] Client received world stop packet, leaving: Removed
+[20:45:09.481] [Info] UniverseServer: Stopping idle world InstanceWorld:scienceoutpost:-:-
+[20:45:09.780] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[20:45:09.780] [Info] Initializing general player utility script
+[20:45:09.787] [Info] ----- FU player init -----
+[20:45:09.787] [Info] ----- End FU player init -----
+[20:45:09.788] [Info] ----- ZB player init -----
+[20:45:09.788] [Info] [ZB] Mods using update info window and their versions:
+[20:45:09.789] [Info] -- frackinuniverse   [Version 6.3.3]
+[20:45:09.789] [Info] -- ztarbound   [Version 6.3.3]
+[20:45:09.789] [Info] ----- end ZB player init -----
+[20:45:10.150] [Info] UniverseServer: Expiring temporary world InstanceWorld:scienceoutpost:-:-
+[20:46:54.213] [Info] UniverseServer: Loading persistent unique instance world playerstation
+[20:46:54.224] [Info] Protected dungeonIds for world set to (0, 65524, 65535)
+[20:46:54.838] [Info] UniverseServer: Warping player 1 to InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1=6622343cfd5948ac5600a80d89a7d1f8
+[20:46:54.865] [Info] Client received world stop packet, leaving: Removed
+[20:46:55.848] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[20:46:57.065] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[20:46:57.065] [Info] Initializing general player utility script
+[20:46:57.072] [Info] ----- FU player init -----
+[20:46:57.072] [Info] ----- End FU player init -----
+[20:46:57.073] [Info] ----- ZB player init -----
+[20:46:57.073] [Info] [ZB] Mods using update info window and their versions:
+[20:46:57.073] [Info] -- frackinuniverse   [Version 6.3.3]
+[20:46:57.073] [Info] -- ztarbound   [Version 6.3.3]
+[20:46:57.073] [Info] ----- end ZB player init -----
+[20:54:12.463] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[20:54:12.483] [Info] Protected dungeonIds for world set to (65524)
+[20:54:12.484] [Info] Placing dungeon outpost
+[20:54:12.494] [Info] Placing dungeon at (0, 750)
+[20:54:22.320] [Info] Protected dungeonIds for world set to (0, 65524)
+[20:54:23.874] [Info] Placing dungeon at (406, 651)
+[20:54:23.880] [Info] Placing dungeon at (332, 621)
+[20:54:23.890] [Info] Placing dungeon at (332, 655)
+[20:54:23.903] [Info] Placing dungeon at (427, 618)
+[20:54:23.910] [Info] Placing dungeon at (310, 616)
+[20:54:23.914] [Info] Placing dungeon at (838, 608)
+[20:54:23.973] [Info] Placing dungeon at (452, 627)
+[20:54:23.978] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[20:54:23.983] [Info] Placing dungeon at (308, 640)
+[20:54:23.992] [Info] Placing dungeon at (364, 588)
+[20:54:23.999] [Info] Placing dungeon at (931, 608)
+[20:54:24.028] [Info] Placing dungeon at (611, 645)
+[20:54:24.037] [Info] Placing dungeon at (805, 608)
+[20:54:24.061] [Info] Placing dungeon at (444, 561)
+[20:54:24.068] [Info] Placing dungeon at (964, 608)
+[20:54:24.115] [Info] Placing dungeon at (757, 597)
+[20:54:24.169] [Info] Placing dungeon at (355, 636)
+[20:54:24.174] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[20:54:24.176] [Info] Placing dungeon at (355, 636)
+[20:54:24.192] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[20:54:24.199] [Info] Placing dungeon at (447, 567)
+[20:54:24.221] [Info] Placing dungeon at (429, 567)
+[20:54:24.810] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=arkteleporter
+[20:54:27.545] [Info] Client received world stop packet, leaving: Removed
+[20:54:27.577] [Info] UniverseServer: Stopping idle world InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1
+[20:54:27.990] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[20:54:27.990] [Info] Initializing general player utility script
+[20:54:27.996] [Info] ----- FU player init -----
+[20:54:27.997] [Info] ----- End FU player init -----
+[20:54:27.997] [Info] ----- ZB player init -----
+[20:54:27.997] [Info] [ZB] Mods using update info window and their versions:
+[20:54:27.997] [Info] -- frackinuniverse   [Version 6.3.3]
+[20:54:27.998] [Info] -- ztarbound   [Version 6.3.3]
+[20:54:27.998] [Info] ----- end ZB player init -----
+[20:55:48.269] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[20:55:48.464] [Info] Protected dungeonIds for world set to (65524)
+[20:55:49.512] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[20:55:49.522] [Info] Client received world stop packet, leaving: Removed
+[20:55:49.552] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[20:55:49.855] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[20:55:49.855] [Info] Initializing general player utility script
+[20:55:49.863] [Info] ----- FU player init -----
+[20:55:49.863] [Info] ----- End FU player init -----
+[20:55:49.863] [Info] ----- ZB player init -----
+[20:55:49.864] [Info] [ZB] Mods using update info window and their versions:
+[20:55:49.864] [Info] -- ztarbound   [Version 6.3.3]
+[20:55:49.864] [Info] -- frackinuniverse   [Version 6.3.3]
+[20:55:49.865] [Info] ----- end ZB player init -----
+[20:55:50.457] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[20:56:09.733] [Info] UniverseServer: Loading celestial world 186588402:15026732:2383324:4:2
+[20:56:10.166] [Info] Protected dungeonIds for world set to (0, 65524)
+[20:56:10.558] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588402:15026732:2383324:4:2
+[20:56:10.574] [Info] Client received world stop packet, leaving: Removed
+[20:56:10.600] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[20:56:10.971] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[20:56:10.971] [Info] Initializing general player utility script
+[20:56:10.976] [Info] ----- FU player init -----
+[20:56:10.976] [Info] ----- End FU player init -----
+[20:56:10.976] [Info] ----- ZB player init -----
+[20:56:10.976] [Info] [ZB] Mods using update info window and their versions:
+[20:56:10.976] [Info] -- ztarbound   [Version 6.3.3]
+[20:56:10.976] [Info] -- frackinuniverse   [Version 6.3.3]
+[20:56:10.976] [Info] ----- end ZB player init -----
+[20:57:08.716] [Info] Chat: <SAIL> You've gained a +3 Research bonus based on your session playtime. This bonus will be disabled if you are AFK.
+[20:57:32.714] [Error] Could not load image asset '/objects/cultist/cultisttent/cultisttentlit.png', using placeholder default.
+(AssetException) No such asset '/objects/cultist/cultisttent/cultisttentlit.png'
+[20:57:42.540] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (1657, 680)
+[20:58:34.951] [Warn] Failed to place dungeon object: labdoor3 direction: 1 position: (1244, 682)
+[20:58:34.954] [Warn] Failed to place dungeon object: labdoor3 direction: 1 position: (1263, 682)
+[20:58:34.955] [Warn] Failed to place dungeon object: labdoor direction: 1 position: (1263, 692)
+[20:58:39.366] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (1165, 658)
+[20:59:14.312] [Warn] Failed to place dungeon object: labdoor direction: 1 position: (911, 754)
+[20:59:14.316] [Warn] Failed to place dungeon object: labdoor direction: 1 position: (933, 754)
+[21:05:48.357] [Info] Skipped event recording for nonexistent entity 33508
+[21:12:23.633] [Info] Protected dungeonIds for world set to (65524)
+[21:12:34.688] [Info] Skipped event recording for nonexistent entity 56318
+[21:14:02.755] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[21:14:03.069] [Info] Protected dungeonIds for world set to (65524)
+[21:14:05.225] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[21:14:05.308] [Info] Client received world stop packet, leaving: Removed
+[21:14:05.328] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:4:2
+[21:14:05.801] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[21:14:05.802] [Info] Initializing general player utility script
+[21:14:05.824] [Info] ----- FU player init -----
+[21:14:05.828] [Info] ----- End FU player init -----
+[21:14:05.828] [Info] ----- ZB player init -----
+[21:14:05.830] [Info] [ZB] Mods using update info window and their versions:
+[21:14:05.831] [Info] -- ztarbound   [Version 6.3.3]
+[21:14:05.831] [Info] -- frackinuniverse   [Version 6.3.3]
+[21:14:05.831] [Info] ----- end ZB player init -----
+[21:17:08.428] [Info] Flying ship for player 1 to 186588402:15026732:2383324:4:3
+[21:17:11.243] [Info] UniverseServer: Creating celestial world 186588402:15026732:2383324:4:3
+[21:17:11.483] [Info] Protected dungeonIds for world set to (65524)
+[21:17:11.483] [Info] Placing dungeon humanbunker
+[21:17:11.669] [Info] Placing dungeon at (3147, 1000)
+[21:17:12.607] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (3243, 957)
+[21:17:12.726] [Warn] Failed to place dungeon object: prisonsecuritycamera direction: 1 position: (3348, 1006)
+[21:17:12.736] [Warn] Failed to place dungeon object: prisonsecuritycamera direction: 1 position: (3373, 1006)
+[21:17:12.952] [Info] Protected dungeonIds for world set to (0, 65524)
+[21:17:12.954] [Info] Placing dungeon fuscifidungeon
+[21:17:12.979] [Info] Placing dungeon at (1330, 1000)
+[21:17:18.530] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324:4:3
+[21:17:18.531] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:4:3
+[21:19:13.797] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[21:19:13.821] [Info] Protected dungeonIds for world set to (65524)
+[21:19:13.821] [Info] Placing dungeon outpost
+[21:19:13.829] [Info] Placing dungeon at (0, 750)
+[21:19:25.867] [Info] Protected dungeonIds for world set to (0, 65524)
+[21:19:27.619] [Info] Placing dungeon at (406, 651)
+[21:19:27.626] [Info] Placing dungeon at (332, 621)
+[21:19:27.632] [Info] Placing dungeon at (332, 655)
+[21:19:27.646] [Info] Placing dungeon at (427, 618)
+[21:19:27.654] [Info] Placing dungeon at (310, 616)
+[21:19:27.663] [Info] Placing dungeon at (838, 608)
+[21:19:27.702] [Info] Placing dungeon at (452, 627)
+[21:19:27.710] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[21:19:27.713] [Info] Placing dungeon at (308, 640)
+[21:19:27.719] [Info] Placing dungeon at (364, 588)
+[21:19:27.732] [Info] Placing dungeon at (931, 608)
+[21:19:27.780] [Info] Placing dungeon at (611, 645)
+[21:19:27.796] [Info] Placing dungeon at (805, 608)
+[21:19:27.819] [Info] Placing dungeon at (444, 561)
+[21:19:27.830] [Info] Placing dungeon at (964, 608)
+[21:19:27.876] [Info] Placing dungeon at (757, 597)
+[21:19:27.931] [Info] Placing dungeon at (355, 636)
+[21:19:27.944] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[21:19:27.951] [Info] Placing dungeon at (355, 636)
+[21:19:27.981] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[21:19:27.987] [Info] Placing dungeon at (447, 567)
+[21:19:28.022] [Info] Placing dungeon at (429, 567)
+[21:19:28.689] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
+[21:19:31.888] [Info] Client received world stop packet, leaving: Removed
+[21:19:32.054] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[21:19:32.474] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[21:19:32.474] [Info] Initializing general player utility script
+[21:19:32.479] [Info] ----- FU player init -----
+[21:19:32.480] [Info] ----- End FU player init -----
+[21:19:32.480] [Info] ----- ZB player init -----
+[21:19:32.480] [Info] [ZB] Mods using update info window and their versions:
+[21:19:32.480] [Info] -- frackinuniverse   [Version 6.3.3]
+[21:19:32.480] [Info] -- ztarbound   [Version 6.3.3]
+[21:19:32.480] [Info] ----- end ZB player init -----
+[21:20:38.925] [Info] UniverseServer: Loading persistent unique instance world playerstation
+[21:20:38.937] [Info] Protected dungeonIds for world set to (0, 65524, 65535)
+[21:20:39.492] [Info] UniverseServer: Warping player 1 to InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1=6622343cfd5948ac5600a80d89a7d1f8
+[21:20:39.525] [Info] Client received world stop packet, leaving: Removed
+[21:20:40.711] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[21:20:44.055] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[21:20:44.286] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[21:20:44.286] [Info] Initializing general player utility script
+[21:20:44.290] [Info] ----- FU player init -----
+[21:20:44.291] [Info] ----- End FU player init -----
+[21:20:44.291] [Info] ----- ZB player init -----
+[21:20:44.291] [Info] [ZB] Mods using update info window and their versions:
+[21:20:44.291] [Info] -- ztarbound   [Version 6.3.3]
+[21:20:44.291] [Info] -- frackinuniverse   [Version 6.3.3]
+[21:20:44.291] [Info] ----- end ZB player init -----
+[21:32:34.381] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[21:32:34.536] [Info] Protected dungeonIds for world set to (65524)
+[21:32:35.627] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[21:32:35.820] [Info] Client received world stop packet, leaving: Removed
+[21:32:35.843] [Info] UniverseServer: Stopping idle world InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1
+[21:32:36.142] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[21:32:36.142] [Info] Initializing general player utility script
+[21:32:36.147] [Info] ----- FU player init -----
+[21:32:36.147] [Info] ----- End FU player init -----
+[21:32:36.147] [Info] ----- ZB player init -----
+[21:32:36.147] [Info] [ZB] Mods using update info window and their versions:
+[21:32:36.148] [Info] -- frackinuniverse   [Version 6.3.3]
+[21:32:36.148] [Info] -- ztarbound   [Version 6.3.3]
+[21:32:36.148] [Info] ----- end ZB player init -----
+[21:35:39.083] [Info] UniverseServer: Loading celestial world 186588402:15026732:2383324:4:3
+[21:35:39.462] [Info] Protected dungeonIds for world set to (0, 65524)
+[21:35:40.043] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588402:15026732:2383324:4:3
+[21:35:40.048] [Info] Client received world stop packet, leaving: Removed
+[21:35:40.342] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[21:35:40.878] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[21:35:40.878] [Info] Initializing general player utility script
+[21:35:40.887] [Info] ----- FU player init -----
+[21:35:40.888] [Info] ----- End FU player init -----
+[21:35:40.888] [Info] ----- ZB player init -----
+[21:35:40.888] [Info] [ZB] Mods using update info window and their versions:
+[21:35:40.889] [Info] -- ztarbound   [Version 6.3.3]
+[21:35:40.889] [Info] -- frackinuniverse   [Version 6.3.3]
+[21:35:40.889] [Info] ----- end ZB player init -----
+[21:36:32.212] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[21:36:57.292] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[21:38:30.473] [Info] Skipped event recording for nonexistent entity 2007
+[21:40:37.082] [Info] Skipped event recording for nonexistent entity 367
+[21:41:33.883] [Info] One player entity located. Directly referencing.
+[21:41:33.886] [Info] [XCustomCodex Systems] Player has learned codex fubunkerlog7, /codex/legacy_codex/.
+[21:41:33.886] [Info] Sent message.
+[21:42:39.739] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (2649, 1005)
+[21:44:34.409] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (1860, 996)
+[21:46:25.916] [Warn] Failed to place dungeon object: labdoor direction: 1 position: (1591, 1013)
+[21:46:25.919] [Warn] Failed to place dungeon object: labdoor direction: 1 position: (1613, 1013)
+[21:48:23.547] [Info] Skipped event recording for nonexistent entity 33101
+[21:48:31.622] [Info] Skipped event recording for nonexistent entity 33130
+[21:48:32.352] [Info] Skipped event recording for nonexistent entity 33132
+[21:48:52.314] [Info] Skipped event recording for nonexistent entity 33704
+[21:48:56.269] [Info] Skipped event recording for nonexistent entity 33692
+[21:50:02.912] [Info] Skipped event recording for nonexistent entity 37540
+[21:50:48.679] [Info] Skipped event recording for nonexistent entity 38057
+[21:50:48.679] [Info] Skipped event recording for nonexistent entity 38048
+[21:50:55.799] [Error] Could not load audio asset '/sfx/npc/tech/mech_powerdown.ogg', using placeholder default.
+(AssetException) No such asset '/sfx/npc/tech/mech_powerdown.ogg'
+[21:55:09.577] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (221, 1005)
+[21:57:56.997] [Warn] Failed to place dungeon object: woodenchest direction: 1 position: (3421, 495)
+[21:58:14.480] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:challengerooms:0c4b11a9e982be83cc3060f8e0972b55:5.48902' with expiry time 0
+[21:58:14.518] [Info] Protected dungeonIds for world set to (65524)
+[21:58:14.518] [Info] Placing dungeon challengerooms
+[21:58:14.519] [Info] Placing dungeon at (0, 1000)
+[21:58:16.037] [Info] Protected dungeonIds for world set to (0, 65524)
+[21:58:17.168] [Info] UniverseServer: Warping player 1 to InstanceWorld:challengerooms:0c4b11a9e982be83cc3060f8e0972b55:5.48902
+[21:58:17.209] [Info] Client received world stop packet, leaving: Removed
+[21:58:17.325] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:4:3
+[21:58:17.608] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[21:58:17.608] [Info] Initializing general player utility script
+[21:58:17.615] [Info] ----- FU player init -----
+[21:58:17.615] [Info] ----- End FU player init -----
+[21:58:17.615] [Info] ----- ZB player init -----
+[21:58:17.616] [Info] [ZB] Mods using update info window and their versions:
+[21:58:17.617] [Info] -- ztarbound   [Version 6.3.3]
+[21:58:17.617] [Info] -- frackinuniverse   [Version 6.3.3]
+[21:58:17.617] [Info] ----- end ZB player init -----
+[22:01:01.046] [Info] UniverseServer: Loading celestial world 186588402:15026732:2383324:4:3
+[22:01:01.589] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:01:02.548] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588402:15026732:2383324:4:3=3553.26.562
+[22:01:02.576] [Info] Client received world stop packet, leaving: Removed
+[22:01:03.190] [Info] UniverseServer: Stopping idle world InstanceWorld:challengerooms:0c4b11a9e982be83cc3060f8e0972b55:5.48902
+[22:01:03.466] [Info] UniverseServer: Expiring temporary world InstanceWorld:challengerooms:0c4b11a9e982be83cc3060f8e0972b55:5.48902
+[22:01:04.084] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:01:04.084] [Info] Initializing general player utility script
+[22:01:04.097] [Info] ----- FU player init -----
+[22:01:04.097] [Info] ----- End FU player init -----
+[22:01:04.098] [Info] ----- ZB player init -----
+[22:01:04.098] [Info] [ZB] Mods using update info window and their versions:
+[22:01:04.099] [Info] -- ztarbound   [Version 6.3.3]
+[22:01:04.099] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:01:04.099] [Info] ----- end ZB player init -----
+[22:09:54.695] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:challengerooms:b4bf2c87816a21a9dc21573f868628ae:5.48902' with expiry time 0
+[22:09:54.732] [Info] Protected dungeonIds for world set to (65524)
+[22:09:54.732] [Info] Placing dungeon challengerooms
+[22:09:54.733] [Info] Placing dungeon at (0, 1000)
+[22:09:55.534] [Warn] Failed to place dungeon object: ancientstriplight3 direction: 1 position: (50, 886)
+[22:09:55.534] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (52, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (54, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (56, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (58, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (60, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (62, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (64, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (66, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight1 direction: 1 position: (68, 886)
+[22:09:55.535] [Warn] Failed to place dungeon object: ancientstriplight3 direction: 0 position: (70, 886)
+[22:09:55.884] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:09:56.884] [Info] UniverseServer: Warping player 1 to InstanceWorld:challengerooms:b4bf2c87816a21a9dc21573f868628ae:5.48902
+[22:09:56.954] [Info] Client received world stop packet, leaving: Removed
+[22:09:56.970] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:4:3
+[22:09:57.497] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:09:57.497] [Info] Initializing general player utility script
+[22:09:57.509] [Info] ----- FU player init -----
+[22:09:57.510] [Info] ----- End FU player init -----
+[22:09:57.510] [Info] ----- ZB player init -----
+[22:09:57.510] [Info] [ZB] Mods using update info window and their versions:
+[22:09:57.511] [Info] -- ztarbound   [Version 6.3.3]
+[22:09:57.511] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:09:57.511] [Info] ----- end ZB player init -----
+[22:12:42.586] [Info] Chat: <server> Admin privileges now given to player Xiaomi
+[22:12:57.670] [Info] Chat: <server> Admin privileges taken away from Xiaomi
+[22:14:14.805] [Info] UniverseServer: Loading celestial world 186588402:15026732:2383324:4:3
+[22:14:15.185] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:14:15.578] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588402:15026732:2383324:4:3=2196.25.470
+[22:14:15.598] [Info] Client received world stop packet, leaving: Removed
+[22:14:15.728] [Info] UniverseServer: Stopping idle world InstanceWorld:challengerooms:b4bf2c87816a21a9dc21573f868628ae:5.48902
+[22:14:15.877] [Info] UniverseServer: Expiring temporary world InstanceWorld:challengerooms:b4bf2c87816a21a9dc21573f868628ae:5.48902
+[22:14:16.186] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:14:16.186] [Info] Initializing general player utility script
+[22:14:16.193] [Info] ----- FU player init -----
+[22:14:16.193] [Info] ----- End FU player init -----
+[22:14:16.193] [Info] ----- ZB player init -----
+[22:14:16.193] [Info] [ZB] Mods using update info window and their versions:
+[22:14:16.194] [Info] -- ztarbound   [Version 6.3.3]
+[22:14:16.194] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:14:16.194] [Info] ----- end ZB player init -----
+[22:16:25.294] [Info] Skipped event recording for nonexistent entity 64
+[22:18:50.471] [Info] Skipped event recording for nonexistent entity 20329
+[22:22:08.322] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:22:08.603] [Info] Protected dungeonIds for world set to (65524)
+[22:22:10.431] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:22:10.493] [Info] Client received world stop packet, leaving: Removed
+[22:22:10.519] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:4:3
+[22:22:10.840] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:22:10.840] [Info] Initializing general player utility script
+[22:22:10.845] [Info] ----- FU player init -----
+[22:22:10.845] [Info] ----- End FU player init -----
+[22:22:10.845] [Info] ----- ZB player init -----
+[22:22:10.846] [Info] [ZB] Mods using update info window and their versions:
+[22:22:10.846] [Info] -- ztarbound   [Version 6.3.3]
+[22:22:10.847] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:22:10.847] [Info] ----- end ZB player init -----
+[22:22:58.953] [Info] Flying ship for player 1 to 186588402:15026732:2383324
+[22:23:02.330] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324
+[22:23:11.065] [Info] Flying ship for player 1 to 186588402:15026732:2383324:5
+[22:23:11.571] [Info] UniverseServer: Creating celestial world 186588402:15026732:2383324:5
+[22:23:11.972] [Info] Protected dungeonIds for world set to (65524)
+[22:23:11.972] [Info] Placing dungeon humanbunker
+[22:23:12.131] [Info] Placing dungeon at (872, 1000)
+[22:23:12.943] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (1071, 894)
+[22:23:13.161] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (1110, 957)
+[22:23:13.325] [Warn] Failed to place dungeon object: prisonsecuritycamera direction: 1 position: (1073, 1006)
+[22:23:13.345] [Warn] Failed to place dungeon object: prisonsecuritycamera direction: 1 position: (1098, 1006)
+[22:23:13.724] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:23:18.771] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:5
+[22:23:21.058] [Info] UniverseServer: Loading celestial world 186588402:15026732:2383324:5
+[22:23:21.399] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:23:21.765] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324:5
+[22:23:21.765] [Info] UniverseServer: Stopping idle world CelestialWorld:186588402:15026732:2383324:5
+[22:23:31.663] [Info] Flying ship for player 1 to 186588402:15026732:2383324
+[22:23:32.467] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324
+[22:23:40.582] [Info] Flying ship for player 1 to 186588402:15026732:2383324
+[22:23:41.188] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324
+[22:24:13.558] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:flyingpyramid:5deaf20212b4800e513a6e0749860029:6' with expiry time 600000
+[22:24:13.581] [Info] Protected dungeonIds for world set to (65524)
+[22:24:13.582] [Info] Placing dungeon flyingpyramid
+[22:24:13.583] [Info] Placing dungeon at (0, 250)
+[22:24:14.755] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:24:16.162] [Info] UniverseServer: Warping player 1 to InstanceWorld:flyingpyramid:5deaf20212b4800e513a6e0749860029:6
+[22:24:18.365] [Info] Client received world stop packet, leaving: Removed
+[22:24:18.418] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:24:18.692] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:24:18.692] [Info] Initializing general player utility script
+[22:24:18.698] [Info] ----- FU player init -----
+[22:24:18.698] [Info] ----- End FU player init -----
+[22:24:18.698] [Info] ----- ZB player init -----
+[22:24:18.698] [Info] [ZB] Mods using update info window and their versions:
+[22:24:18.698] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:24:18.699] [Info] -- ztarbound   [Version 6.3.3]
+[22:24:18.699] [Info] ----- end ZB player init -----
+[22:25:54.167] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;12;8;', using placeholder default.
+(ImageException) call to subImage with pos (0, 0) size (12, 8) out of image bounds (62, 4)
+[22:25:54.349] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;11;8;', using placeholder default.
+(ImageException) call to subImage with pos (0, 0) size (11, 8) out of image bounds (62, 4)
+[22:25:55.199] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;5;8;', using placeholder default.
+(ImageException) call to subImage with pos (0, 0) size (5, 8) out of image bounds (62, 4)
+[22:26:52.516] [Info] Skipped event recording for nonexistent entity 626
+[22:28:12.206] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:28:12.369] [Info] Protected dungeonIds for world set to (65524)
+[22:28:13.789] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:28:13.814] [Info] Client received world stop packet, leaving: Removed
+[22:28:13.821] [Info] UniverseServer: Stopping idle world InstanceWorld:flyingpyramid:5deaf20212b4800e513a6e0749860029:6
+[22:28:14.213] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:28:14.213] [Info] Initializing general player utility script
+[22:28:14.226] [Info] ----- FU player init -----
+[22:28:14.229] [Info] ----- End FU player init -----
+[22:28:14.230] [Info] ----- ZB player init -----
+[22:28:14.232] [Info] [ZB] Mods using update info window and their versions:
+[22:28:14.233] [Info] -- ztarbound   [Version 6.3.3]
+[22:28:14.234] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:28:14.235] [Info] ----- end ZB player init -----
+[22:28:28.208] [Info] UniverseServer: Loading persistent unique instance world playerstation
+[22:28:28.239] [Info] Protected dungeonIds for world set to (0, 65524, 65535)
+[22:28:28.706] [Info] UniverseServer: Warping player 1 to InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1=6622343cfd5948ac5600a80d89a7d1f8
+[22:28:28.861] [Info] Client received world stop packet, leaving: Removed
+[22:28:29.601] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:28:29.967] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:28:29.967] [Info] Initializing general player utility script
+[22:28:29.975] [Info] ----- FU player init -----
+[22:28:29.976] [Info] ----- End FU player init -----
+[22:28:29.976] [Info] ----- ZB player init -----
+[22:28:29.976] [Info] [ZB] Mods using update info window and their versions:
+[22:28:29.976] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:28:29.976] [Info] -- ztarbound   [Version 6.3.3]
+[22:28:29.977] [Info] ----- end ZB player init -----
+[22:29:09.303] [Info] Chat: <server> Admin privileges now given to player Xiaomi
+[22:29:18.146] [Error] Could not instantiate item '[neuralprocessor, 1, {}]'. (ItemException) No such item 'neuralprocessor'
+[22:29:52.167] [Info] Chat: <server> Admin privileges taken away from Xiaomi
+[22:49:32.293] [Info] Chat: <server> Admin privileges now given to player Xiaomi
+[22:49:39.490] [Info] Chat: <server> Admin privileges taken away from Xiaomi
+[22:55:35.851] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:scienceoutpost:-:-' with expiry time 0
+[22:55:35.868] [Info] Protected dungeonIds for world set to (65524)
+[22:55:35.868] [Info] Placing dungeon scienceoutpost
+[22:55:35.890] [Info] Placing dungeon at (0, 1175)
+[22:55:40.773] [Warn] Failed to place dungeon object: metallicceiling2 direction: 1 position: (210, 960)
+[22:55:40.774] [Warn] Failed to place dungeon object: pipes3 direction: 1 position: (200, 961)
+[22:55:44.496] [Info] Protected dungeonIds for world set to (0, 65524)
+[22:55:48.894] [Info] UniverseServer: Warping player 1 to InstanceWorld:scienceoutpost:-:-=scienceoutpost
+[22:55:49.283] [Info] Client received world stop packet, leaving: Removed
+[22:55:49.296] [Info] UniverseServer: Stopping idle world InstanceWorld:playerstation:164d4b5ca54df8366781e36e0be74f75:1
+[22:55:49.780] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:55:49.781] [Info] Initializing general player utility script
+[22:55:49.798] [Info] ----- FU player init -----
+[22:55:49.800] [Info] ----- End FU player init -----
+[22:55:49.801] [Info] ----- ZB player init -----
+[22:55:49.801] [Info] [ZB] Mods using update info window and their versions:
+[22:55:49.802] [Info] -- ztarbound   [Version 6.3.3]
+[22:55:49.802] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:55:49.802] [Info] ----- end ZB player init -----
+[22:55:53.649] [Info] Chat: <server> Admin privileges now given to player Xiaomi
+[22:56:13.964] [Info] Chat: <server> Admin privileges taken away from Xiaomi
+[22:57:59.173] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "isAmmoBased" : 0,
+  "seed" : 1793610994588537558,
+  "magazineSizeFactor" : 0,
+  "shortdescription" : "Winchestar Howlsinner",
+  "tooltipKind" : null,
+  "altAbilityType" : "swtjc_ewg_phaseburst",
+  "level" : 5.8014,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "energyUsageFactor" : 0.71461
+  }
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:57:59.202] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 1.9,
+  "seed" : 1793610994588537558,
+  "level" : 6,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 9.81482,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 15,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "legendary",
+  "shortdescription" : "Winchestar Howlsinner",
+  "tooltipKind" : null,
+  "altAbilityType" : "swtjc_ewg_phaseburst"
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:05.585] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:05.593] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 7,
+  "critChance" : 5.05,
+  "critBonus" : 6.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.0633
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:09.411] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 7,
+  "critChance" : 5.05,
+  "critBonus" : 6.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.0633
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:09.422] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 8,
+  "critChance" : 5.2,
+  "critBonus" : 7,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.2152
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:11.287] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 8,
+  "critChance" : 5.2,
+  "critBonus" : 7,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.2152
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:11.296] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 9,
+  "critChance" : 5.35,
+  "critBonus" : 7.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.3671
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:13.671] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 9,
+  "critChance" : 5.35,
+  "critBonus" : 7.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.3671
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:13.677] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 10,
+  "critChance" : 5.5,
+  "critBonus" : 8,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 13.519
+  }
+ },
+ "name" : "supernovaglove",
+ "count" : 1
+}
+[22:58:18.650] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 1.9,
+  "seed" : 1793610994588537558,
+  "level" : 6,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 9.81482,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 15,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "legendary",
+  "shortdescription" : "Winchestar Howlsinner",
+  "altAbilityType" : "swtjc_ewg_phaseburst",
+  "tooltipKind" : null
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:18.666] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.05,
+  "seed" : 1793610994588537558,
+  "level" : 7,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 9.93029,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 15.5,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "tooltipKind" : null,
+  "altAbilityType" : "swtjc_ewg_phaseburst"
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:25.886] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:25.896] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 7,
+  "critChance" : 2.05,
+  "critBonus" : 8.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.519
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:29.724] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 7,
+  "critChance" : 2.05,
+  "critBonus" : 8.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.519
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:29.734] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 8,
+  "critChance" : 2.2,
+  "critBonus" : 9,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.6646
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:31.672] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 8,
+  "critChance" : 2.2,
+  "critBonus" : 9,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.6646
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:31.679] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 9,
+  "critChance" : 2.35,
+  "critBonus" : 9.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.8101
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:33.781] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "level" : 9,
+  "critChance" : 2.35,
+  "critBonus" : 9.5,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.8101
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:33.790] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "level" : 10,
+  "critChance" : 2.5,
+  "critBonus" : 10,
+  "rarity" : "essential",
+  "primaryAbility" : {
+   "baseDps" : 12.9557
+  }
+ },
+ "name" : "extraclawglove",
+ "count" : 1
+}
+[22:58:36.212] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.05,
+  "seed" : 1793610994588537558,
+  "level" : 7,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 9.93029,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 15.5,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "altAbilityType" : "swtjc_ewg_phaseburst",
+  "tooltipKind" : null
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:36.230] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.2,
+  "seed" : 1793610994588537558,
+  "level" : 8,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 10.0458,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 16,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "tooltipKind" : null,
+  "altAbilityType" : "swtjc_ewg_phaseburst"
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:37.965] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.2,
+  "seed" : 1793610994588537558,
+  "level" : 8,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 10.0458,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 16,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "altAbilityType" : "swtjc_ewg_phaseburst",
+  "tooltipKind" : null
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:37.976] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.35,
+  "seed" : 1793610994588537558,
+  "level" : 9,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 10.1612,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 16.5,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "tooltipKind" : null,
+  "altAbilityType" : "swtjc_ewg_phaseburst"
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:40.895] [Info] Pre-Upgrade Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.35,
+  "seed" : 1793610994588537558,
+  "level" : 9,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 10.1612,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 16.5,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "altAbilityType" : "swtjc_ewg_phaseburst",
+  "tooltipKind" : null
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:58:40.911] [Info] Upgraded Stats: 
+{
+ "parameters" : {
+  "critChance" : 2.5,
+  "seed" : 1793610994588537558,
+  "level" : 10,
+  "elementalType" : "poison",
+  "animationPartVariants" : {
+   "middle" : 12,
+   "barrel" : 4,
+   "butt" : 4
+  },
+  "reloadTimeFactor" : 0,
+  "primaryAbility" : {
+   "fireTimeFactor" : 0.265808,
+   "baseDpsFactor" : 0.540671,
+   "baseDps" : 10.2767,
+   "energyUsageFactor" : 0.71461
+  },
+  "critBonus" : 17,
+  "isAmmoBased" : 0,
+  "magazineSizeFactor" : 0,
+  "rarity" : "essential",
+  "shortdescription" : "Winchestar Howlsinner",
+  "tooltipKind" : null,
+  "altAbilityType" : "swtjc_ewg_phaseburst"
+ },
+ "name" : "swtjc_ewg_rareminirocketlauncher",
+ "count" : 1
+}
+[22:59:25.746] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:59:25.958] [Info] Protected dungeonIds for world set to (65524)
+[22:59:27.215] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[22:59:27.261] [Info] Client received world stop packet, leaving: Removed
+[22:59:27.267] [Info] UniverseServer: Stopping idle world InstanceWorld:scienceoutpost:-:-
+[22:59:27.542] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[22:59:27.543] [Info] Initializing general player utility script
+[22:59:27.553] [Info] ----- FU player init -----
+[22:59:27.554] [Info] ----- End FU player init -----
+[22:59:27.554] [Info] ----- ZB player init -----
+[22:59:27.554] [Info] [ZB] Mods using update info window and their versions:
+[22:59:27.555] [Info] -- frackinuniverse   [Version 6.3.3]
+[22:59:27.555] [Info] -- ztarbound   [Version 6.3.3]
+[22:59:27.555] [Info] ----- end ZB player init -----
+[22:59:27.980] [Info] UniverseServer: Expiring temporary world InstanceWorld:scienceoutpost:-:-
+[22:59:50.471] [Info] Flying ship for player 1 to 186588402:15026732:2383324
+[22:59:50.574] [Info] UniverseServer: Expiring temporary world InstanceWorld:flyingpyramid:5deaf20212b4800e513a6e0749860029:6
+[22:59:54.157] [Info] UniverseServer: Arriving ship for player 1 at 186588402:15026732:2383324
+[23:00:10.299] [Info] Flying ship for player 1 to 186588404:15026721:-238540722
+[23:00:10.301] [Info] UniverseServer: Creating new system world at location (186588404, 15026721, -238540722)
+[23:00:10.310] [Info] UniverseServer: Arriving ship for player 1 at 186588404:15026721:-238540722
+[23:00:35.128] [Info] Flying ship for player 1 to 186588404:15026721:-238540722
+[23:00:35.838] [Info] UniverseServer: Arriving ship for player 1 at 186588404:15026721:-238540722
+[23:00:36.439] [Info] Flying ship for player 1 to 186588404:15026721:-238540722
+[23:00:36.922] [Info] UniverseServer: Arriving ship for player 1 at 186588404:15026721:-238540722
+[23:00:48.414] [Info] UniverseServer: Creating persistent unique instance world spacestation_medical
+[23:00:48.436] [Info] Protected dungeonIds for world set to (65524)
+[23:00:48.436] [Info] Placing dungeon spacestation_medical
+[23:00:48.438] [Info] Placing dungeon at (0, 300)
+[23:00:50.830] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:00:51.713] [Info] UniverseServer: Warping player 1 to InstanceWorld:spacestation_medical:c1b89e20c311ce8193275ae6a7be4cec:1
+[23:00:52.375] [Info] Client received world stop packet, leaving: Removed
+[23:00:52.410] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:00:52.734] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:00:52.735] [Info] Initializing general player utility script
+[23:00:52.743] [Info] ----- FU player init -----
+[23:00:52.743] [Info] ----- End FU player init -----
+[23:00:52.743] [Info] ----- ZB player init -----
+[23:00:52.743] [Info] [ZB] Mods using update info window and their versions:
+[23:00:52.744] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:00:52.744] [Info] -- ztarbound   [Version 6.3.3]
+[23:00:52.744] [Info] ----- end ZB player init -----
+[23:02:15.401] [Info] ----First Time Space Station Init----
+STATION OBJECT ID 498 CALLED, ATTEMPTING TO ADD STATION DATA...
+[23:02:15.402] [Info] Station type - medical
+[23:02:15.402] [Info] Station race - cari
+[23:02:15.402] [Info] Happened at worldtime 539553
+[23:02:15.407] [Info] ----- End Station First Time Init -----
+[23:04:51.042] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:04:51.209] [Info] Protected dungeonIds for world set to (65524)
+[23:04:52.635] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:04:52.691] [Info] Client received world stop packet, leaving: Removed
+[23:04:52.734] [Info] UniverseServer: Stopping idle world InstanceWorld:spacestation_medical:c1b89e20c311ce8193275ae6a7be4cec:1
+[23:04:52.998] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:04:52.999] [Info] Initializing general player utility script
+[23:04:53.008] [Info] ----- FU player init -----
+[23:04:53.008] [Info] ----- End FU player init -----
+[23:04:53.008] [Info] ----- ZB player init -----
+[23:04:53.016] [Info] [ZB] Mods using update info window and their versions:
+[23:04:53.017] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:04:53.017] [Info] -- ztarbound   [Version 6.3.3]
+[23:04:53.017] [Info] ----- end ZB player init -----
+[23:05:03.074] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:scienceoutpost:-:-' with expiry time 0
+[23:05:03.092] [Info] Protected dungeonIds for world set to (65524)
+[23:05:03.095] [Info] Placing dungeon scienceoutpost
+[23:05:03.126] [Info] Placing dungeon at (0, 1175)
+[23:05:09.484] [Warn] Failed to place dungeon object: metallicceiling2 direction: 1 position: (210, 960)
+[23:05:09.485] [Warn] Failed to place dungeon object: pipes3 direction: 1 position: (200, 961)
+[23:05:13.631] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:05:16.033] [Info] UniverseServer: Warping player 1 to InstanceWorld:scienceoutpost:-:-=scienceoutpost
+[23:05:18.847] [Info] Client received world stop packet, leaving: Removed
+[23:05:18.988] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:05:19.290] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:05:19.290] [Info] Initializing general player utility script
+[23:05:19.294] [Info] ----- FU player init -----
+[23:05:19.294] [Info] ----- End FU player init -----
+[23:05:19.294] [Info] ----- ZB player init -----
+[23:05:19.294] [Info] [ZB] Mods using update info window and their versions:
+[23:05:19.294] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:05:19.294] [Info] -- ztarbound   [Version 6.3.3]
+[23:05:19.294] [Info] ----- end ZB player init -----
+[23:07:52.965] [Info] Chat: <SAIL> ALERT: MENTAL STATE DETERIORATING! Your surroundings are causing your thoughts and feelings to become jumbled. Focus is difficult and you feel yourself going insane...
+[23:07:59.428] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:07:59.629] [Info] Protected dungeonIds for world set to (65524)
+[23:08:01.077] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:08:01.162] [Info] Client received world stop packet, leaving: Removed
+[23:08:01.193] [Info] UniverseServer: Stopping idle world InstanceWorld:scienceoutpost:-:-
+[23:08:01.634] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:08:01.634] [Info] Initializing general player utility script
+[23:08:01.641] [Info] ----- FU player init -----
+[23:08:01.641] [Info] ----- End FU player init -----
+[23:08:01.642] [Info] ----- ZB player init -----
+[23:08:01.642] [Info] [ZB] Mods using update info window and their versions:
+[23:08:01.642] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:08:01.642] [Info] -- ztarbound   [Version 6.3.3]
+[23:08:01.642] [Info] ----- end ZB player init -----
+[23:08:02.147] [Info] UniverseServer: Expiring temporary world InstanceWorld:scienceoutpost:-:-
+[23:08:09.562] [Info] UniverseServer: Loading persistent unique instance world spacestation_medical
+[23:08:09.567] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:08:09.856] [Info] UniverseServer: Warping player 1 to InstanceWorld:spacestation_medical:c1b89e20c311ce8193275ae6a7be4cec:1
+[23:08:09.881] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:08:09.883] [Info] Client received world stop packet, leaving: Removed
+[23:08:10.082] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:08:10.082] [Info] Initializing general player utility script
+[23:08:10.086] [Info] ----- FU player init -----
+[23:08:10.087] [Info] ----- End FU player init -----
+[23:08:10.087] [Info] ----- ZB player init -----
+[23:08:10.087] [Info] [ZB] Mods using update info window and their versions:
+[23:08:10.087] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:08:10.087] [Info] -- ztarbound   [Version 6.3.3]
+[23:08:10.087] [Info] ----- end ZB player init -----
+[23:10:19.254] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:10:19.428] [Info] Protected dungeonIds for world set to (65524)
+[23:10:20.584] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:10:20.610] [Info] Client received world stop packet, leaving: Removed
+[23:10:20.629] [Info] UniverseServer: Stopping idle world InstanceWorld:spacestation_medical:c1b89e20c311ce8193275ae6a7be4cec:1
+[23:10:20.900] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:10:20.902] [Info] Initializing general player utility script
+[23:10:20.910] [Info] ----- FU player init -----
+[23:10:20.910] [Info] ----- End FU player init -----
+[23:10:20.910] [Info] ----- ZB player init -----
+[23:10:20.910] [Info] [ZB] Mods using update info window and their versions:
+[23:10:20.911] [Info] -- ztarbound   [Version 6.3.3]
+[23:10:20.911] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:10:20.911] [Info] ----- end ZB player init -----
+[23:10:30.232] [Info] Flying ship for player 1 to 186588404:15026721:-238540722
+[23:10:33.350] [Info] UniverseServer: Arriving ship for player 1 at 186588404:15026721:-238540722
+[23:10:38.826] [Info] Flying ship for player 1 to 186588404:15026721:-238540722:3
+[23:10:39.331] [Info] UniverseServer: Creating celestial world 186588404:15026721:-238540722:3
+[23:10:39.693] [Info] Protected dungeonIds for world set to (65524)
+[23:10:39.693] [Info] Placing dungeon fuwreck
+[23:10:39.702] [Info] Placing dungeon at (3687, 4000)
+[23:10:39.828] [Warn] Failed to place dungeon object: wreckconsole1 direction: 0 position: (3879, 3977)
+[23:10:39.828] [Warn] Failed to place dungeon object: wreckturbines direction: 0 position: (3895, 3978)
+[23:10:39.829] [Warn] Failed to place dungeon object: wreckcrate1 direction: 0 position: (3937, 3981)
+[23:10:39.853] [Warn] Failed to place dungeon object: wreckconsole3 direction: 0 position: (4030, 3993)
+[23:10:39.863] [Warn] Failed to place dungeon object: wreckconsole1 direction: 0 position: (4042, 3994)
+[23:10:39.867] [Warn] Failed to place dungeon object: wreckboiler direction: 0 position: (3703, 3997)
+[23:10:39.869] [Warn] Failed to place dungeon object: wreckchair direction: 0 position: (3801, 3997)
+[23:10:39.881] [Warn] Failed to place dungeon object: wreckscreen direction: 0 position: (3765, 4002)
+[23:10:39.885] [Warn] Failed to place dungeon object: wreckwiresceiling direction: 0 position: (3718, 4004)
+[23:10:39.891] [Warn] Failed to place dungeon object: wreckwiresceiling direction: 0 position: (3702, 4006)
+[23:10:40.173] [Info] Placing dungeon ship1
+[23:10:40.233] [Info] Placing dungeon at (5851, 4000)
+[23:10:42.335] [Info] Protected dungeonIds for world set to (1, 65524)
+[23:10:42.342] [Info] Placing dungeon apextestchamber
+[23:10:42.383] [Info] Placing dungeon at (8092, 4000)
+[23:10:44.047] [Warn] Failed to place dungeon object: apextv direction: 0 position: (8173, 4019)
+[23:10:44.162] [Info] Protected dungeonIds for world set to (1, 2, 65524)
+[23:10:44.164] [Info] Placing dungeon humanbunker
+[23:10:44.187] [Info] Placing dungeon at (9940, 4000)
+[23:10:44.996] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (10139, 3894)
+[23:10:45.267] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (10178, 3957)
+[23:10:45.473] [Warn] Failed to place dungeon object: prisonsecuritycamera direction: 1 position: (10141, 4006)
+[23:10:45.490] [Warn] Failed to place dungeon object: prisonsecuritycamera direction: 1 position: (10166, 4006)
+[23:10:45.807] [Info] Protected dungeonIds for world set to (1, 2, 3, 65524)
+[23:10:45.815] [Info] Placing dungeon apexspaceelevator
+[23:10:45.868] [Info] Placing dungeon at (1249, 4000)
+[23:10:46.667] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (1350, 4006)
+[23:10:46.688] [Warn] Failed to place dungeon object: apexbananasign direction: 0 position: (1342, 4013)
+[23:10:46.689] [Warn] Failed to place dungeon object: apexbananasign direction: 0 position: (1375, 4013)
+[23:10:46.814] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1394, 4120)
+[23:10:46.821] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1394, 4122)
+[23:10:46.836] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4138)
+[23:10:46.851] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4141)
+[23:10:46.851] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1379, 4145)
+[23:10:46.857] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1382, 4145)
+[23:10:46.857] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1384, 4145)
+[23:10:46.859] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1387, 4145)
+[23:10:46.872] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1379, 4148)
+[23:10:46.874] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1382, 4148)
+[23:10:46.874] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1384, 4148)
+[23:10:46.877] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1387, 4148)
+[23:10:46.877] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1395, 4148)
+[23:10:46.880] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1395, 4150)
+[23:10:46.916] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1384, 4155)
+[23:10:46.920] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4155)
+[23:10:46.926] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4157)
+[23:10:46.946] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1384, 4158)
+[23:10:46.953] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1395, 4162)
+[23:10:46.958] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1395, 4164)
+[23:10:46.959] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1378, 4167)
+[23:10:46.961] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1381, 4167)
+[23:10:46.961] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1384, 4167)
+[23:10:46.964] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1387, 4167)
+[23:10:46.979] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1378, 4169)
+[23:10:46.987] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1387, 4169)
+[23:10:46.988] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4169)
+[23:10:46.991] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4171)
+[23:10:47.017] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1379, 4179)
+[23:10:47.022] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1379, 4182)
+[23:10:47.022] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1395, 4187)
+[23:10:47.026] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1380, 4188)
+[23:10:47.046] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1387, 4188)
+[23:10:47.057] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1395, 4190)
+[23:10:47.058] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1380, 4191)
+[23:10:47.064] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1387, 4191)
+[23:10:47.068] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4195)
+[23:10:47.087] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4198)
+[23:10:47.148] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1382, 4220)
+[23:10:47.148] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1394, 4220)
+[23:10:47.164] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1383, 4228)
+[23:10:47.164] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1391, 4228)
+[23:10:47.168] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1393, 4228)
+[23:10:47.183] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1386, 4230)
+[23:10:47.184] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1388, 4230)
+[23:10:47.192] [Warn] Failed to place dungeon object: teslaspike direction: 0 position: (1378, 4234)
+[23:10:47.310] [Warn] Failed to place dungeon object: tesla direction: 0 position: (1399, 4260)
+[23:10:47.360] [Warn] Failed to place dungeon object: fuokeahitechtable direction: 0 position: (1387, 4468)
+[23:10:47.365] [Warn] Failed to place dungeon object: apexlamp1 direction: 0 position: (1387, 4470)
+[23:10:47.383] [Warn] Failed to place dungeon object: fuokeahitechtable direction: 0 position: (1392, 4482)
+[23:10:47.386] [Warn] Failed to place dungeon object: apexradio direction: 0 position: (1392, 4484)
+[23:10:47.459] [Warn] Failed to place dungeon object: apexbananasign direction: 0 position: (1391, 4612)
+[23:10:47.474] [Warn] Failed to place dungeon object: fuokeahitechtable direction: 0 position: (1383, 4639)
+[23:10:47.477] [Warn] Failed to place dungeon object: techchest direction: 1 position: (1383, 4641)
+[23:10:47.527] [Warn] Failed to place dungeon object: metalbarrel1 direction: 0 position: (1384, 4681)
+[23:10:47.533] [Warn] Failed to place dungeon object: metalbarrel2 direction: 0 position: (1384, 4684)
+[23:10:47.553] [Warn] Failed to place dungeon object: bunkercorner direction: 0 position: (1339, 4699)
+[23:10:47.557] [Warn] Failed to place dungeon object: bunkercorner direction: 0 position: (1377, 4699)
+[23:10:47.587] [Warn] Failed to place dungeon object: apexcooldoor direction: 0 position: (1376, 4705)
+[23:10:47.636] [Warn] Failed to place dungeon object: tesla direction: 0 position: (1341, 4744)
+[23:10:47.701] [Warn] Failed to place dungeon object: tesla direction: 0 position: (1376, 4744)
+[23:10:54.367] [Info] UniverseServer: Arriving ship for player 1 at 186588404:15026721:-238540722:3
+[23:10:54.556] [Info] UniverseServer: Stopping idle world CelestialWorld:186588404:15026721:-238540722:3
+[23:11:00.598] [Info] UniverseServer: Loading celestial world 186588404:15026721:-238540722:3
+[23:11:01.140] [Info] Protected dungeonIds for world set to (1, 2, 3, 65524)
+[23:11:01.501] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588404:15026721:-238540722:3
+[23:11:01.506] [Info] Client received world stop packet, leaving: Removed
+[23:11:01.527] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:11:02.018] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:11:02.018] [Info] Initializing general player utility script
+[23:11:02.022] [Info] ----- FU player init -----
+[23:11:02.022] [Info] ----- End FU player init -----
+[23:11:02.022] [Info] ----- ZB player init -----
+[23:11:02.022] [Info] [ZB] Mods using update info window and their versions:
+[23:11:02.023] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:11:02.023] [Info] -- ztarbound   [Version 6.3.3]
+[23:11:02.023] [Info] ----- end ZB player init -----
+[23:11:04.957] [Error] Exception while invoking lua function 'update'. (LuaException) Error code 2, [string "/vehicles/modularmech/modularmech.lua"]:1125: attempt to compare number with nil
+stack traceback:
+	[C]: in metamethod '__lt'
+	[string "/vehicles/modularmech/modularmech.lua"]:1125: in function <[string "/vehicles/modularmech/modularmech.lua"]:460>
+./starbound(_ZN4Star13StarExceptionC2EPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x66) [0xa91c36]
+./starbound(_ZN4Star12LuaExceptionC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x52) [0xa4b3b2]
+./starbound(_ZN4Star9LuaEngine11handleErrorEP9lua_Statei+0x392) [0xa41f42]
+./starbound(_ZN4Star9LuaEngine12callFunctionIJfEEENS_7VariantINS2_INS_5EmptyEJbxdNS_9LuaStringENS_8LuaTableENS_11LuaFunctionENS_9LuaThreadENS_11LuaUserDataEEEEJNS_11LuaVariadicIS9_EEEEEiDpRKT_+0xbd) [0xd0ffed]
+./starbound(_ZN4Star16LuaBaseComponent6invokeINS_7VariantINS_5EmptyEJbxdNS_9LuaStringENS_8LuaTableENS_11LuaFunctionENS_9LuaThreadENS_11LuaUserDataEEEEJfEEENS_5MaybeIT_EERKNS_6StringEDpOT0_+0xd4) [0xd10224]
+./starbound(_ZN4Star7Vehicle6updateEm+0x16d) [0x10d691d]
+./starbound() [0x1116853]
+./starbound(_ZN4Star9EntityMap17updateAllEntitiesERKSt8functionIFvRKSt10shared_ptrINS_6EntityEEEES1_IFbS6_S6_EE+0x1aa) [0xc4501a]
+./starbound(_ZN4Star11WorldClient6updateEv+0x3c1) [0x11257d1]
+./starbound(_ZN4Star14UniverseClient6updateEv+0x27e) [0x108801e]
+./starbound(_ZN4Star17ClientApplication13updateRunningEv+0x2bc) [0x97b5ec]
+./starbound(_ZN4Star17ClientApplication6updateEv+0x70) [0x97c820]
+./starbound(_ZN4Star11SdlPlatform3runEv+0x8bd) [0x1384b8d]
+./starbound(_ZN4Star18runMainApplicationESt10unique_ptrINS_11ApplicationESt14default_deleteIS1_EENS_10StringListE+0xf6) [0x13807d6]
+./starbound(main+0x453) [0x965af3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fccb1601d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fccb1601e40]
+./starbound(_start+0x2a) [0x9739ea]
+[23:11:25.455] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:11:25.689] [Info] Protected dungeonIds for world set to (65524)
+[23:11:27.210] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:11:27.235] [Info] Client received world stop packet, leaving: Removed
+[23:11:27.248] [Info] UniverseServer: Stopping idle world CelestialWorld:186588404:15026721:-238540722:3
+[23:11:27.521] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:11:27.521] [Info] Initializing general player utility script
+[23:11:27.534] [Info] ----- FU player init -----
+[23:11:27.534] [Info] ----- End FU player init -----
+[23:11:27.534] [Info] ----- ZB player init -----
+[23:11:27.535] [Info] [ZB] Mods using update info window and their versions:
+[23:11:27.535] [Info] -- ztarbound   [Version 6.3.3]
+[23:11:27.535] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:11:27.535] [Info] ----- end ZB player init -----
+[23:12:07.802] [Info] UniverseServer: Loading celestial world 186588404:15026721:-238540722:3
+[23:12:08.334] [Info] Protected dungeonIds for world set to (1, 2, 3, 65524)
+[23:12:08.606] [Info] UniverseServer: Warping player 1 to CelestialWorld:186588404:15026721:-238540722:3
+[23:12:08.643] [Info] Client received world stop packet, leaving: Removed
+[23:12:08.654] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:12:09.115] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:12:09.115] [Info] Initializing general player utility script
+[23:12:09.120] [Info] ----- FU player init -----
+[23:12:09.120] [Info] ----- End FU player init -----
+[23:12:09.120] [Info] ----- ZB player init -----
+[23:12:09.120] [Info] [ZB] Mods using update info window and their versions:
+[23:12:09.121] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:12:09.121] [Info] -- ztarbound   [Version 6.3.3]
+[23:12:09.121] [Info] ----- end ZB player init -----
+[23:12:59.581] [Info] UniverseServer: Loading client ship world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:12:59.804] [Info] Protected dungeonIds for world set to (65524)
+[23:13:01.069] [Info] UniverseServer: Warping player 1 to ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:13:01.122] [Info] Client received world stop packet, leaving: Removed
+[23:13:01.133] [Info] UniverseServer: Stopping idle world CelestialWorld:186588404:15026721:-238540722:3
+[23:13:01.481] [Info] ===== STARFORGE PLAYER INITIALIZATION =====
+[23:13:01.481] [Info] Initializing general player utility script
+[23:13:01.487] [Info] ----- FU player init -----
+[23:13:01.488] [Info] ----- End FU player init -----
+[23:13:01.488] [Info] ----- ZB player init -----
+[23:13:01.488] [Info] [ZB] Mods using update info window and their versions:
+[23:13:01.489] [Info] -- frackinuniverse   [Version 6.3.3]
+[23:13:01.489] [Info] -- ztarbound   [Version 6.3.3]
+[23:13:01.489] [Info] ----- end ZB player init -----
+[23:13:10.805] [Info] UniverseClient: Client disconnecting...
+[23:13:10.817] [Info] Client received world stop packet, leaving: Removed
+[23:13:10.971] [Info] UniverseServer: Client 'Xiaomi' <1> (local) disconnected for reason: 
+[23:13:10.972] [Info] UniverseServer: Stopping idle world ClientShipWorld:274949c702b55aa7cc44e2d26113be3c
+[23:13:11.244] [Info] UniverseServer: Stopping UniverseServer
+[23:13:11.251] [Info] Clearing steam rich presence connection
+[23:13:12.862] [Info] Application: quit requested
+[23:13:12.862] [Info] Application: quitting...
+[23:13:12.862] [Info] Application: shutdown...
+[23:13:13.476] [Info] Root: Shutting down Root
+[23:13:14.279] [Info] Application: Destroying SDL Window
+[23:13:14.303] [Info] Application: stopped gracefully
